@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<title>Lager</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Lager">
+<meta name="theme-color" content="#0E1013">
+<link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjogIkxhZ2VyIOKAlCBXYXJlbndpcnRzY2hhZnQiLCAic2hvcnRfbmFtZSI6ICJMYWdlciIsICJkZXNjcmlwdGlvbiI6ICJCZXN0YW5kLCBGaW5hbnplbiwgUGFydG5lciB1bmQgU3RhdGlzdGlrLiBMw6R1ZnQgb2ZmbGluZSBhdWYgZGVtIEdlcsOkdC4iLCAic3RhcnRfdXJsIjogIi4iLCAic2NvcGUiOiAiLiIsICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLCAib3JpZW50YXRpb24iOiAicG9ydHJhaXQiLCAiYmFja2dyb3VuZF9jb2xvciI6ICIjMEUxMDEzIiwgInRoZW1lX2NvbG9yIjogIiMwRTEwMTMiLCAibGFuZyI6ICJkZSIsICJpY29ucyI6IFt7InNyYyI6ICJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQU1BQUFBREFDQUlBQUFEZHZ2dFFBQUFKL1VsRVFWUjRuTzNkYTR3ZFpSM0g4Zi8vZWViY2VpNjc3ZHFsYWNGc0NSZFJBNmcxZ0dJS0ppUUdZN0hXQzFBbGFWS2JwaFNERjNpbFJzRlhraWdSWHBoS01ORm9XcVNoS0ttVlZpdUtvU1FvWGFLeHB4aExMQ0gyWUxlNzNYT2R5L1A0WXFoQVhlaVo4KytaT1RQOWZkS1gzZXcvWjc3bm1abXpPODl5Ylh5Q0FBYWxraDRBMGcwQmdRZ0NBaEVFQkNJSUNFUVFFSWdnSUJCQlFDQ0NnRUFFQVlFSUFnSVJCQVFpQ0FoRUVCQ0lJQ0FRUVVBZ2dvQkFCQUdCQ0FJQ0VRUUVJZ2dJUkJBUWlDQWdFRUZBSUlLQVFBUUJnUWdDQWhFRUJDSUlDRVFRRUlnZ0lCQkJRQ0NDZ0VBRUFZRUlBZ0lSQkFRaUNBaEVFQkNJSUNBUVFVQWdnb0JBQkFHQkNBSUNFUVFFSWdnSVJCQVFpQ0FnRUVGQUlJS0FRQVFCZ1FnQ0FoRUVCQ0lJQ0VTY3BBY1lJbVpXU2pGemdqTllhNDB4MXRvRVp4aXF6QWFrdGZaOWYzNSszdmhlZ21Nb0oxY3VseDNIQ1lJZ3dUR0doN1AzZCtQREpXZHVkbmJKeE1SVlYxOTk1Wlh2Y3h3bi9qV0FtWDNmUDNqdytXY1BISmc1Zm54c2ZKeUlzcmNVWlcwRlltWnJiYmZUMmJKMTZ4YzNiYnI0NGt2emVaWFVTY3hhY2wzejRvdjFIMjNiOXRDMmJjVlNLUnd2bVdtR0kxTXJVSGg0V3EzVy9UOTRZT3ZtalhNdHQ5UHBXbXNTSFVtVlNzV3hjdjdCSHo1MDU1ZnVLSmZMR1dzb1V5c1FNN2VhemU5OS8vNHRtemUrMGppaHRkWmFKWDZuMmUxMlc2M1dsczBiVFJCODljdDNWcXJWTEFXVW5SVklhejAzZTJMdHVzOXMzL0d6VjErZGRaelJlbS80dnI5MDZmak5uMXYvMk01ZmpJMHZ6c3cxZFhZK0I3TFdPcm44aGcwYlhOY2tlK3UrSUdaMlhiTmh3d1lubDhjS05IS1VVdDF1ZDJybHl0L3QvMzB1VjRoNjNSTitXdFAvL3c4L1lZbzRJekVyeit0OTlQcnJYanB5cEZnc1J2cU9JMnUwMXZtQk1iUHJ1bE5UVTdYYVdMUFpqSFIwcmJWS3FXcTEyditYR0dOYXJWYlVkUzRJL0ZwdGJHcHE2bkM5WGlxVkluM3R5TXBJUUtFQjN0UFcybncrMStsMGY3dHZyN0dXNlV4Tk1BVkJVSzFVVjYzNm9PZDdBNXlNc3JIdy9FK21Bb29xWEh1NjNlNXRuMSsvNzhuZjVJc0ZZODRjaEdKMlhmY3JYN3Zybm52dmJUWmJBNXpMc3VTY0RzZ1lVNnRWOS94Nno3NG5kMDh1TzkrWXZ1Nk1tTG5YNi8zNDRZZTMzSDc3a2lVVG51ZU40RFY3Yk03cGdKUlNuVTczc25kZk5uWGhKUy85OHpDeFEvMWNmU3RGeHYvNG1rOU5URXk0N2psZEQ1M2pBWVdYM3N1WEwzL2swVWNmMzdXcm54U1lPUWlDU3FWeXk2M3JZNWh3OUozVEFSR1JVcXJkN2w1eTZidSs5ZTF2V0RyakpUU0YvOGRhbXAvdllQa2hCRVJFU25HMzAybTNXcEcrU211TmVnZ0JoWlJTNS9qTjFNRHdxb0VJQWdJUkJBUWlDQWhFRUJDSUlDQVFRVUFnZ29CQUJBR0JDQUlDRVFRRUlnZ0lSQkFRaUNBZ0VFRkFJSktwZ0ZMeHhHY3FodXhmcGdKeUhHZkVmMHVRbVVmdG9YMmhqQVJrcmRWYU40NDEydTMyeVA1dW9WS3EzVzQzampXMDFwbFpoMGIwdFk3S0dGTXFsZXIxK3VGNnZWZ3NqT0RUbjhhWVlyRnd1RjZ2MSt1bFVta0VKeHhNUmdJaUlzZHhtaWZuZHV6WVhpbmxmTjlQZXB6VCtiNWZLZVYyN05qZVBEbVhwYk5ZUm5ibm9GUGJreEhSenNkMnJWNTliYU14azgvbmt4N3FOYTdyVGs0dWVlcXBwOWV0L1NTOVlkUU15RTVBUktTVTZ2VjZ0V3Ixa1VkM2Z1VERWeldPbnpRbTRiMkN3c2Z2SnlkcWYvelRzNS85OUxxVDgvT0Z3aWllWVFlV3FZQ0lTR3ZkYWJmSHhzZS9lOTk5bjFoelU2VlNTdlpzNWpqVWJIWis5Y3ZINzc3cnJybloyZEtpUlpuWm15eVV0WUNJU0NudHViMXV0L3YrVmF0dXZQSEdLMDV0ODN2bXJWdk9Ia3MyM09aMyt1RHp1M2Z2L3N0enp4V0x4VnkrME9mK0RTbVN3WUNJaUptWnVkVnFlYjJlaytpVmtPKzZ1VUtoWEM1YmF6TnozZk5HMlF3b0ZENXZtdXdGUnpoQWxpNTZUcE9kKzhuL053cEhMdkVCaGkwN253TkJJaEplZ1poSU1SRlJnbGNINGFXMXNSRm1TT25ZdzVCa1FKckpOZFR5TEJIcDVKYkN3QkFSbFIzT0t3cjZPQm9wSFh0SUVndElNODE2ZGpMUE42L0lYVC9wbkY5a3NqSGVaeE5SdUg0d3ZkeTEreHYrRS8vMkc2NGR6L0hiSDR5VWpqMDh5ZHlGYWFZVHJ2M0NCYm52dktmd3pvb2lTdjVrOEsrbStmcmZlajg5NmkzT3YrWEJTT25ZdzUwaS9vREN3N0IxWmY2QkR4UXBzQ1B5d2F6V1JKcnYrSFAzd1NQdWdnY2pwV01QVzl3QmFhYVRucjMxL054UHJpcjVubFgydGF2UnhCbExoc25KOFczUGRuNytzbGQ3ODBraHBXUEhJTmFBbU1nbktpdDY0ZnJ5WklsdE1DcUhJV1Fzc2FaR3gxNit2OVV5NUp3NlFhVjA3SGpFZWhlaG1WcWVYYlBNT2EraXpJZ2RCaUpTVENhZzh5cHF6VEtuNVZsOWFyeVVqaDNUZDQvem00Vjc1TjZ3MUxFRHZVc0NTMzZVZndNczV1RmdOeXgxK0EwVHBuVHNlTVI2RzIrSmxLSVZKZWFCYm4xMVB1SVAxQU95Z1kzMEZVekVsbGFVV0trM0JaVEdzZU9Sd09kQS9rRHZNR0xhL3BMM2o2Yko5L0VhTVZIUDBPcDM2TldUanZWdDFGOHBXM0RDbEk0OWJBa0VGUFZOSEZqU09iN3ZVTy91RjNxa2lhaVBaWnFKTERtYTluNW8wWFdUVHVCSHV6Slk4UCttZE94aFM4RlA0OFBYWlUvRFo0ZVdGZGpyNzMyV1YvUkswLzdoUDhGMXl4MmJ4QzhscG5Uc3FGSVFVUGpLYjcwd2YyQ20yM0J0UDllSlRPUmJXbGxUdDF6Z1dNOG1jdCtVMHJHalNrRkFtc242ZHUwS1o3cTY2R2pIT3R6WGtmQXNYVkZURXlWbC9XU09SRXJIamlvRkFWRjRiZURUUlZWMTBWaVVGeld3QTF5S25rVXBIVHVTZEFSRVJNeGtBckpSUGlSUlRJa2ZocFNPM2IvVUJFUTBjaDhCOXltbFkvY0p2OUlLSWdnSVJCQVFpQ0FnRUVGQUlJS0FRQVFCZ1FnQ0FoRUVCQ0lJQ0VRUUVJZ2dJQkJCUUNDQ2dFQUVBWUZJQWdHTi9rNlRDMDZZMHJHSExZR0FkUHpmTXFJRkowenAyTU1XYTBDS0tEQjBxR2xzN0E5UTlza1NXVVdIbWlZd3I3ODBLUjA3SG5FL0c2K1luamptYzVETVUzQm54RVFjMEJQSGZNVnZmclE1aFdQSEk5YUFBa3NWaC9jMmd1bVpRT2M0a1VkeDM0WnZTZWQ0ZWliWTJ3Z3F6dXNiN2FSMDdIakVmUTJrbUh4ck4wMTNaMTNyYVBKSFpoZGwzNUNqYWRhMW02YTd2ajM5bWF5VWpoMkRaTGE0bS9Yc3RVdjA0OWNzV2x4azhteVE2RjYxVEtTWktNY251dmFtWjlwUHp3UUw3bG1aMHJHSFBrWWltMnc2VExPZWZXOU4zWE5aNFdPVFRpSHFCaWhubDZXZWEvYzAvRy8rdmZmWGsyYjhyVTlTS1IxN3FCTDdXeG1hcVIyUUY5akx4L1ExRS9xQ1VtTDc1Ujd0MkdlT0J5L01CVG5OaS9RWjluZEs2ZGpEaytRZlcxRk1UTlFLeUUzNlpKRFhYTlpraVV3Zlk2UjA3R0ZOa2ZoZjYxR2MvTTlUVFBSamtOS3h6N3JrSDIwMmxrYm1uaWFDbEk1OTFpWCtMb0owUTBBZ2dvQkFCQUdCQ0FJQ0VRUUVJZ2dJUkJBUWlDQWdFRUZBSUlLQVFBUUJnUWdDQWhFRUJDSUlDRVFRRUlnZ0lCQkJRQ0NDZ0VBRUFZRUlBZ0lSQkFRaUNBaEVFQkNJSUNBUVFVQWdnb0JBQkFHQkNBSUNFUVFFSWdnSVJCQVFpQ0FnRUVGQUlJS0FRQVFCZ1FnQ0FoRUVCQ0lJQ0VRUUVJZ2dJQkJCUUNDQ2dFQUVBWUVJQWdJUkJBUWlDQWhFL2dzZmxkQWUvaHpOdlFBQUFBQkpSVTVFcmtKZ2dnPT0iLCAic2l6ZXMiOiAiMTkyeDE5MiIsICJ0eXBlIjogImltYWdlL3BuZyIsICJwdXJwb3NlIjogImFueSJ9LCB7InNyYyI6ICJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQWdBQUFBSUFDQUlBQUFCN0drT3RBQUFncFVsRVFWUjRuTzNkZTdBa1ZaM2c4ZC92bk15cXVuWGY5L1lERWJSQkJXbDVOYzBJaUE0ZzY0ajRJSVRCblpqeE1iT0JMZzloZklTejZLNFQ0Mk5YeDUwd1lyUlhISkhIT0RpanNvdTc0OGhEWWNCWE53UUJxQU82Z0MxTlA0Q202YjZQdnJkdVZXWG1PZnRIOWJERXhnYTM2OTdxcnFyK2ZUL0JYMFRRbmRUSk90L01rMW1aT2pJMktRQUFlMXkzTndBQTBCMEVBQUNNSWdBQVlCUUJBQUNqQ0FBQUdFVUFBTUFvQWdBQVJoRUFBRENLQUFDQVVRUUFBSXdpQUFCZ0ZBRUFBS01JQUFBWVJRQUF3Q2dDQUFCR0VRQUFNSW9BQUlCUkJBQUFqQ0lBQUdBVUFRQUFvd2dBQUJoRkFBREFLQUlBQUVZUkFBQXdpZ0FBZ0ZFRUFBQ01JZ0FBWUJRQkFBQ2pDQUFBR0VVQUFNQW9BZ0FBUmhFQUFEQ0tBQUNBVVFRQUFJd2lBQUJnRkFFQUFLTUlBQUFZUlFBQXdDZ0NBQUJHRVFBQU1Jb0FBSUJSQkFBQWpDSUFBR0FVQVFBQW93Z0FBQmhGQUFEQUtBSUFBRVlSQUFBd2lnQUFnRkVFQUFDTUlnQUFZQlFCQUFDakNBQUFHRVVBQU1Bb0FnQUFSaEVBQURDS0FBQ0FVUVFBQUl3aUFBQmdGQUVBQUtNSUFBQVlSUUFBd0NnQ0FBQkdFUUFBTUlvQUFJQlJCQUFBakNJQUFHQVVBUUFBb3dnQUFCaEZBQURBS0FJQUFFWVJBQUF3aWdBQWdGRUVBQUNNSWdBQVlCUUJBQUNqQ0FBQUdFVUFBTUFvQWdBQVJoRUFBRENLQUFDQVVRUUFBSXdpQUFCZ0ZBRUFBS01JQUFBWVJRQUF3Q2dDQUFCR0VRQUFNSW9BQUlCUkJBQUFqQ0lBQUdBVUFRQUFvd2dBQUJoRkFBREFLQUlBQUVZUkFBQXdpZ0FBZ0ZFRUFBQ01JZ0FBWUJRQkFBQ2pDQUFBR0VVQUFNQW9BZ0FBUmhFQUFEQ0tBQUNBVVFRQUFJd2lBQUJnRkFFQUFLTUlBQUFZUlFBQXdDZ0NBQUJHRVFBQU1Jb0FBSUJSQkFBQWpDSUFBR0FVQVFBQW93Z0FBQmhGQUFEQUtBSUFBRVlSQUFBd2lnQUFnRkVFQUFDTUlnQUFZQlFCQUFDakNBQUFHRVVBQU1Bb0FnQUFSaEVBQURDS0FBQ0FVUVFBQUl3aUFBQmdGQUVBQUtNSUFBQVlSUUFBd0NnQ0FBQkdFUUFBTUlvQUFJQlJCQUFBakNJQUFHQVVBUUFBb3dnQUFCaEZBQURBS0FJQUFFWVJBQUF3aWdBQWdGRUVBQUNNSWdBQVlCUUJBQUNqa201dkFBNDFxdXFjVTlVWVk0eXgyNXZUOTFTMTlXR0dFUGc4MFZrRUFKM1JtdmRqak0xbXMxNnZoendUZFVtYWRudTcrcHVxNUhrUmkweDlXaTZYeStXeTk3NG9Da3FBamlBQTZBQ2ZKSG1XelV4UCt5UTUvUEREWDNQODhTZWVlTktLbFN2WEhyZTJDSVdLZG5zRCsxS01NVTJUTFU4K3VXUGJ0dC84NWpjUFB2VGd0cTFiNjdYNTZ0QndwVkloQTFnK0hSbWI3UFkyb0krMURraG5wNmRIeDhjdnVPQ0N0Ny9qSGV0T09YWDE2dFdWaWc5QmlxTGIyOWYvbkJQdkpjdGt6NTQ5di9yVkkzZmNmdnZOMy9uTzFpMi9IUndlTHBVcVJaRjNld1BSeHdnQWxpNUprdG5aMllGSzVmZmY5YTVMTDczczVIVW5oU0MxV2ozTG1pRUVGUkhsMkw4RFlveXFtcVpwcFZJcGw5MldMVHYrOXNZYmJyait1aDA3ZG95UGozTnRBRXRHQUxBVXJTdVQwMU43VGovamRaLy93aGZPUFBQMFdpMmJuNitwU3VzS2NMYzM4QkRVdXFnZVFxaFVLc1BEbFNlZTJQcm5uL3p6NzN6ckg2cURnMG1TaEJDNnZZSG9Qd1FBYlZQbllnaTFXdTN5SzY3NDFLYy9uYWJsMmRsWjU1eHozRlY4TU1RWWk2S29WQ3BEUTVYcnZuNzlKNjYrdXQ1b3RLNEtkSHZUMEdjSUFOclR1aVZ4Zm03dXI3Kzg0ZkpMTDltMVoyOEl3WHZmN2UweUo0UVFRbGkxY3V5blA3dnY0b3N1MmpzN00xQ3QwZ0MwaFVNMnRFRkZWR1doVnZ2ckwyKzQ5TkpMbnRrMUxTTE0vbDNobkV1U1pPZXpVNmVmZnRwL3YrV1drZEhSUnFQQlNSamF3dTZDTnZna21kNno1N1AvNVhPWFgzckp6bWVua2lSaHViKzcwalRkdlh2cWpETmUrODEvK0phSWhCQVlFZXcvQW9EOWxTVEpuajI3TC82RFA3enFxaXQzUGplVEpQeUlwQ2VrYWJwcjE5VFpaNy8rTHo3MTZkbVphVTRDc1ArNEJvRDlvcXBaMWx5NWN0V2QvM3ozaWhVcldXM29OU0dFNGFIQml5Njg4SWMvdUdOa2RKU0xBZGdmZklleFg1ejN0Zm5heHoveEg5ZXNPYUpXcXpINzk1b1lZNGp4MDUvNTdPRFFVTTdzai8zRDF4aUxjODdOeiswOTZlUjFGMTUwMGRUVVhNb1RmbnFQOTM3djNybVRUajdod290K2YrLzBOQXQwMkI4RUFJdFQxVHpMTHIvaWl0SFI0VHpuMlFNOXlqblhhR1NYWFhiNTJNUkVsbVZjRGNhaUNBQVdvYW9MOWZwUlI3L3kvTGUrYmUvZUJXNzY3Rm5PdWZuNTJva25uM2oyT2VmTXo4MnhUSWRGc1l0Z0VkNzd4a0x0RGIvN2hwVXJKN09zeVhGbEw0c3hPcFUzdi9tOEdIa3lCQlpIQUxDSTFpTm9UanZ0REZYaG9XTTl6am5YYU9Tbm5MSithSGlVeFRvc2lnRGd4YWhxbnVmakV5dlduN3ErWHM5WlZlaHh6cmw2dlg3VTBVY2ZjK3d4M0txTFJiRi9ZQkZGVVF3T0RrNU9UaFpGenZwUDd3c2h0TVlyenhrdkxJSUE0TVdvYXJQWmZQbWFsNCtOalRPaDlJVVlZNUxJc2NlK09oSnNMSVlBNE1Xb2FnaGhlSGk0VXFud3hQbStFR04wVGljbUpyaGdnMFh4YXhFc3JtZGZQOXQ2NEVHM2puTmJuMGx2dmdDSEs4RFlId1FBaSt2QkNhNTFiOUxvNktoemttWEZ3ZC9DS09LZGMxNW1aK1pEQ003MTFrZlVnME9HSGtRQTBIOWE3OGl0Vmdmdi9PRWROMy9uNXFlZmZzb255Y0U4UjFIVlVJVEJvY0h6ejMvck95KzhzRnhPRzQwbXQ5eWc3eEFBOUtXQmdjckhQdnJocjE3ekZWSDEzaC84RmFyV3J5TCs1Lys0K2FhLys4YmYzZlROa2RGUkdvQytRd0RRWjRxaUdCc2IvZmpWLytHclgvblN4SXJWMHRXM29EanZmM3pQM2U5Kzk3dHYrZTUzbmZNeDhqNFc5Qk1DZ0g0U1FxaFdCeC8rbDRldnZmYmFrYkhKcmwrZExvcGljdVdxbjl4ejEzZHYrZTc3L3ZnOXUzZnpHRTcwRTg1WTBVOUNDQU1EeVoxMy9uQis3Mnh5Y05mOVgyU1RYSkxlZXV2M2l5SnkrSS8rUWdEUVoxUmxlbnBLcGZ0VC8vTlUzY3pNTkFGQTN5RUE2RE1oeUpGSHZseTBWM1pkVlkyaE9PS0lJOU5VZStHTUJOaC92Zkl0QXZhSDkzNSt2bjdlVzg1YmZkaExGaGE2LzNLQzFpRi9DUEhpaTk4VkFyTS8rZ3dYck5CUFZMWFJhTHowcFlkLzZqT2Z2ZlQ5bDZoS3BUTFF4ZTNKODN6UGN6di8vZVZYdmZIY2MyWm41N29lSktBdEJBQjl4bnMvUFQzN0ozL3lYaEg1aTAvK3A2ZWZmbHE2OXZJVEhSb1orZEJILyt3em4vM1B0VnFkQ3dEb093UUEvY2Q3djN2M3pIdmU4OTV6ejMzamJiZmQvdFNPSFFmNWppQlZMWXBpZUdqbzM3enA5NDQvNGZqWnZYc2w4dlFGOUI4Q2dMN2t2WitabVptWVdQR0JEMXppbkVTUmd6bjd0djY2R0dWaEladWVudkhlSDlTL0h1Z1FBb0IrNWIzUHNtelBua1lYNzcxeHpySHVqLzVGQU5ESFZKWDVGMWd5YmdNRkFLTUlBQUFZUlFBQXdDZ0NBQUJHRVFBQU1Jb0FBSUJSQkFBQWpDSUFBR0FVQVFBQW93Z0FBQmhGQUFEQUtBSUFBRVlSQUFBd2lnQUFnRkVFQUFDTUlnQUFZQlFCQUFDakNBQUFHRVVBQU1Bb0FnQUFSaEVBQURDS0FBQ0FVUVFBQUl3aUFBQmdGQUVBQUtNSUFBQVlSUUFBd0NnQ0FBQkdFUUFBTUlvQUFJQlJCQUFBakNJQUFHQVVBUUFBb3dnQUFCaEZBQURBS0FJQUFFWVJBQUF3aWdBQWdGRUVBQUNNSWdBQVlCUUJBQUNqQ0FBQUdFVUFBTUFvQWdBQVJoRUFBRENLQUFDQVVRUUFBSXdpQUFCZ0ZBSEE0bUtNM2Q0RXRJY2h3LzRnQUZoRWpERkpFdWZZVmZxR2lxUnAydTJ0UUIvZ1c0MFhFMk5NMC9TWnA1K1puWjN4M25OYzJmdFVOY3ZqazA5dVVjZDRZUkVFQUMrbWRmaS9jK2ZPdWJtOTN2dHVidzRXcDZwRklkdTJiVk5PMnJBWWRoRzhtRllBWm1abXRtM2RucVlsamloN1hHdThwcWIyN05pK28xUml2TEFJQW9CRkpFa3l2M2ZtL3Z2dkw1ZGRDS0hibTRNWEUyT3NWQ3FQUC83WUUwLzh0bHd1TTE1NGNRUUFpNGd4T3A5czNQalRQQStxMnUzTndZc0pJWlJLN3Q1Tjk5WVhhaXpaWVZFRUFJc0lJUXhVcTVzMmJuenl5YTJWU29WVmhWN21uSy9Yczl0dnZ6VkpVa1lLaXlJQVdFU01zVnd1NzN6bTZiLy81amNIQjh0RlVYUjdpL0QvVnhURnlNamdQWGZmYzkrbVRVUER3NHdVRmtVQXNMaWlLS3FEUXpkY2Y5MjJiVTl4RXRERE5NYTRZY09Yc2p4anNRNzdnd0JnY2ExTGk5dTNicjMyYTllT0RGZnlQTy8yRnVIL2xlZjUyTmpJSFhmODRPNjc3aG9aR2VYd0gvdERSOFltdTcwTjZBT3FHbU1NUmJqMTl0dlhuM3Jxek14c2tpVGQzaWpzRTJQd1BzbXk1cm5ubkwxNTgrYUJnUUh1LzhIKzRBd0EreVhHNkwxdk5oc2YrdENmenMzdExaZExUREc5STRRNE1sTDl4TWMvL3F0SEhoa2NIR1Jvc0o4SUFQWlhVUlJEdzhNUDNuLy94ejc2c2NIQnFxb3kwZlNDUE05WHJSaTk1aXQvYytQMTE0MVBUTEJBaC8xSEFOQ0dQTThuVnF6NHhvM1hYWEg1RlNNalE5NTcxcHE3S01aWUZNWHFsV1BYZlBYckgvbndoMFpHUjBreTJrSUEwSjQ4enlkV3JMenVhOWQ4OFBJclNxVzBXcTF5eU5rVmVaNTc3eWNuUnpmOHQ3LzUwNnV1SEJ3Y0ZKNENqVFlSQUxRdHovT0pGYXV1dSs3YXQ3N2xMVTg4c1huRnlySFd2K3oyZGxsUkZFVlJGT1BqWTFuV3VQUURsMzNvcWl1SGhvWmFWK203dldub013UUFTNUhuK2NURTVMMmJOcDU3emprYnZ2UVY1M1J5Y2t4Vjh6d3Zpb0tacU9OaWpDR0VQTTlEQ0tPam95TWpJN2ZkZHV1NTU3engrdXUrUGpZK0xoejdZMG00RFJSTDU3M1BzbXh1YnU3a2swKys5TExMM25uaFJlUGpJMWt1alhxOTJXekdHSm1WbGs5VlZUVkpra3FsVWlxNWVqMi81KzY3TjJ6NDhqL2ZkYWYzZm5Cd2tITXZMQmtCd0xLb3FuTnVmbjYrMldpY2NPSko1NTEzM2h2T091dTQ0OVllZHRoaDN2czBsU2pDYjFLWHB2WFI1YmtVUlppYW1ucjg4Y2Z1M2JUcDl0dHZ1M2ZUcGp6UFJrWkdSWVNydmxnT0FvQU9jTTZwYXExV2F5d3NKS1hTNFllLzlCV3ZmTVdLeVJYSHJWM0xETFZrTWNZMFRaNTg4c250MjdadDM3NzlpU2VlcU5kcVBrMkhoNGRWbGZ1dnNId0VBQjNqbkhQT2hSQ2F6V2FqMFFnaHhJTFZpV1Z6M2psWEtwWEs1YkwzUG9SQVU5RXBCQUNkcDZycW5JcndTTExsYTExSENTRndRUVVkeCtOYzBIa3h4c2dDQmREenVBMFVBSXdpQUFCZ0ZBRUFBS01JQUFBWVJRQUF3Q2dDQUFCR0VRQUFNSW9BQUlCUkJBQUFqQ0lBQUdBVUFRQUFvd2dBQUJqRncrQU9PS2VpdkJTbFEyTHJueWk5OW1CTUZWRUd1bk5hQXgxNmJaZ1BPUVRnZ0ZBUnB5SWlSWlQ1WFBMV3V4SFptNWRKUlZXY3lvRFQxSW1LRk4wdWdZcDRsU2lTQlZrb1lvakNRSGVBaXFva3FnTmV2SXFJaEc0UDlLR0tBSFJZYTBiSW9zeGtVYUtNcEhyeW1GdFIwaE9IM1ZoSlkrUUljU2xhTDBmTW9qd3dFNmFiOFZkN2krZWFNVWFwSmxweDNjbEFhNkRyUVdheXFDb3JTcnArTEJrcjZmcFJseW92d2x5aUtLSXEwODM0eTczaHVXWjhkRytZYWtaUkdVNDAxZTczL3RCREFEckpxK1JSWnBweHZLUVhINTY4N2JEMGQ4YmRNWVBPSjZ3T2RNSy9yZ3RzcmNXSFpvcmJkaFozN015M3pJZHFxaFVuK1VHY0c1TFcxTitNYXdiZG00OU0zN0xhcnh2MUw2c3E2MzJkRVVXaUZIbDhiRDdjUHhYKzZabnN6bDNGbm1ZY1RqVlJLWWhBNS9CR3NNNW9IUTlPWjNFazBYOTdSSHJWSzlLMVkxNUVKRVFwSkVUaEpYNGQ0VnBMN1c3ZnBaVm5hK0ZyVzdKcnQyUmJhMkUwVmRVRHZtcnNWR0tVbVN5K3JPcmV2eWI5d0pwMFZkVzFzaFNEUkFhNlExb2pMSDdmV3VxdnBvc3ZiYzYrdlQyYnplTllxcHdLZEFvQjZBQ25FcUxNWnZFZGh5V2ZQNzU4M0ppWGYzMGI3dlBYQnRGQlFhVDFla1R2UkJMZHRSQSsvMmh6dzIrYlRuWEFIOEFqUksreVVFaUk4WU5IbDY0K3RyUnl3RWtlaXlBaW9zb2RkUjMyd3F2OVBoRngrdXZwNHVxSEcvLzRURDZTcWp2d3NiZUFBQ3lYVjJrRVVaSFB2NmI4d1ZlVVJLVEk0L01YZ1hGQVJaRWlTdUpFRXIzcjZmeVNoK3JiNm1FMDBRT3hISlNvek9UeHlJcjcrcnJLdVM5SkpJOTVFRS9kRDRyV1JXQ2ZxSWhzMk55OCtwRkdGQ2s3bG9PV2l3QXNpMWVwRlRLUnlpMm5WVTlmNVVNakNsUC9RYmN2QTZudVhBZ1gzN2Z3azkzRlpFbXpqazROcWNydVpuekRwTC81dElIVkF5N1BJbFAvd2RjNjVIZGx2ZmZaNHNMN2Fuc3lxUjdJRXo0TENNRFNPWlZHSWFPcDNIcEdkZDJrenhzeFlSV2dlL0lvU2FJeldYemJ4dHJQOWhUamFjZk9BeEtWcVN5ZU9lSC82WFhWMFZUelBDYk0vZDJUQjBuSyt0RHU0dnhOdFpsTXlwNjFvS1ZqeGxvaUZjbUNWRHl6ZjY5SVZJbzhqaWJ5dmRkVlR4M3pzM24wblppbXZjcHNIazhkODk5N1hYVTBrWUxadjlzU0oza2pycHYwdDU1UnJYakpBcWRpUzhla3RVUk9wVmJFTDU5UVhyZkNaOHordmNHckZJV01sZlRHVXlxamlTNS9hbWhsZmpUUkcwK3BqSlcwS0tRalVjRXlKVTZ5Umx5M3duLzVoSEt0aUN5NkxobnoxbElrS2xQTitMNGowejg2cXBRM1lzcW4yRE84U3Q2TWF5ZjhYNjR0eitYTG5ScWN5bHdlLzNKdGVlMkV6NXVkT2FWQVI2Uk84a2I4bzZOSzd6c3luV3B5V3JaRVhBTm9XK3NucVpPcFBuQjJkYktzRXFsb3o4bWorRVRmK3JQYUQ1N05SMUpkMm5WQ3J6S2J4ZDlibFh6L3pDb3JQejBvaUlqSzdrWmNmMDl0ZHhaYlA4QkdXNWk3MnVaVmFsbTg0cWgwNVpBTGdVK3dGN1YrZnZHSlY1VjBHWk5DZk1FZnd1VGZnNXhJQ0xKeXlGMXhWRnJMT0Q5YkNxYXY5cWpJUXBBMVErNlNOV2xrbit0VlhpVms4Zldya3ZOWEozdVhORXhlWlc4V3oxK2R2SDVWRWhqb1h1VlZZaFl2V1pPdUdYSUxYQTF1SHdGb2oxZFp5T0o3amtnbkIxM0JEdGZEb29nNHVXSk51cHd6Z0N2V3BPSllXT2hkS2xJRW1SeDA3emtpWGFEVDdTTUE3U2xFS29tODR6QWZDMmIvbnVaVVloYlBtUFN2SEhJTGJRNldpaXdVOHNvaGQ4YWtqeGszbWZRMEZZbUZ2T013WDBtazZQYkc5QjBDMEFZblVpOWtUZFd0SGZIS3pXZTlUVVZDbE9HeU8zWFUxOXNjTEtkU0wrS3BvMzY0N0FKUDhPNXRUa1dMdUhiRXI2bTZlc0dNMWg0K3JqYW9TcU9JcngzejFaSVd6QXM5TDRxSXlsbVRTMWtZVUpHekpyMXdZMG5QYTcwWHFGclMxNDc1UmhHVnIyVTdDRUFiVkVTaUhEdmtXQmZ1Qy92R2E3anQ4V3BkUHpoMjJBbVo3d2Y3eG11SThXb2JBV2hERkhGT1hsWlY5ck8rb0NvU1pYVlpSNU0yenRoYVI1U2ppYTR1cTBUaGlMTDN0VXIvc3FvNmpzemFSQURhMExveC9PZ3FlMWwvVUJFSjhhVVZIV3Z6dDJCRmxMRlVYMXBSQ1pINXZ6OUVPYnJxbHZPekQ1dDRKV1RiT3Z1YzRRN3E3bXVTZE45THVucE9IcGZ5dE1nUUQrbzdKdmRmN1BZYjBsc3Z2K3RCUGZ2RjdHVUVvRzA5dVBQdmUydFMydFczVWdXUlBJYlljNjlEV1BMbTlOai9oNGhJNitQdCtrREh2SFY5dmJmMDJ2YjBCUUxROTJMYzk0N2NlM2ZsUDlwZGRPVzJ4U0xLU2FQdXZOVkpra2pJZTY0Qmg0WVF4U1dTRjNMN2p1d1hNK0hnSDRaSEVhZHkxcVEvZlVYU2VnY3lGMGo2SFFIb2J6R0tlcGx1eWg4L1dQdit6anh2dlpLOEcrZkM2dVNrRVgvOUtaVjFFejd3NDZsT0MxRmNxZy90S2Y3ZGcvVmZ6QmF4SysrZVZ4R1J4TWxiVnljM25qSXdWcEpZMElEK1JnRDZXQlNKVG1aenVlQysybzkzRmVQbExuOFpmemxibkwreDlvTXpxOGVQK2JEc1J6SGplU0dLSnZvdlU4WDVHMnZQTnVONDJzMVBOb3I4cjZmeUM3TGFQNTVSSGZiQ0hYRjlqUUQwc1NKS1V0SnJIbXY4K05saTVZQTJ1bkpVK0FJVEpYMm1FYTkrcFBIOU02dGNrT3NzRmJuNmtjWXpqYmlpck0xdUQvVEtpdjc0MmVLYXpjMnJYMVBPR3p3b3U0OXhHMmdmOHlyMVJ2ejJVM2s1MWF6Yms0S0lOSU9NbHZRbmU0cEhad3FYU0E5czBhRWdpTGhFSHAwcGZyS25HQzExZi9ZWGtTeElPZFZ2UDVYWEd6eC9yYjhSZ0g3VitsRkNMWXU3R2pIcG1kdWZuY2g4RWJjdFJGR05QYkpOZlM1R0VkVnRDM0craUQzeWRZMGlpY3F1UnF4bGtWdnYrMXFQN0ZGWWtpZ2xyNE85ZEt3ZFJVb3E0MmwzTGtRZnNxS01wMUxxcGFrMmlBd21Vdks5dEUxb0h3SG9WNjBuRmd4VjlFMHJrb1dzSjk1TG5Lak01L0Uxdy82RU1SOExGZ2M2dzZ2RUlwNHc1bDh6N09kNzQ4MlVxWk9GTEw1cFJUSlU0YW1JL1kyTHdIMU1WV0lSUC9LcTBpMVBaODgxNCtoU1gzN2JFVTZrR1NVUDhzbGpTNlZFQzk3TzBUa2hTaW5WVHg1YmV1ZDlDMW1Va25iem5NK3J6R1R4SlFQNmtWZVZJay9mN0hNRW9JODVrVkRJMGNQdSsyZFUzM25md3BQelFidDBIdEI2K0g3VjZ3M3JLeGNjbVJaTlp2OU84aXBGRmk4NE1yMGhqNWYvdkxHN2lLNTdTeTh4eU1zSDNYZFBHemg2MlBHRGozNUhBUHFiVXdsWlhEZnVIemk3K28ydDJkMjdpNE4vNlZWRjhpZ25qYmozdlR4OTlhZ1B6UDRIZ0ZjSnpmaStOYVhUeHYzZlBwbjlZalowNWNxL3Fwd3o2ZC83c25TeXd1eC9LQ0FBZmMrcGhEeE9sdlREcnk1L09IYnY2cXNUQ1pGSjRjQnB4ZjdWSSs1ekoxVzZ0Z2FrKzRMUEQvME9EUVRnVU9CVVlwU2kyYzNiQklPSUU1NENkR0E1bFpCTGtDNFB0RmNHK2hCQkFBNFJLdExkKzBONjRDNGtFMXhYbndRcURQU2hoZEVFQUtNSUFBQVlSUUFBd0NnQ0FBQkdFUUFBTUlvQUFJQlJCQUFBakNJQUFHQVVBUUFBb3dnQUFCaEZBQURBS0FJQUFFWVJBQUF3aWdBQWdGRUVBQUNNSWdBQVlCUUJBQUNqQ0FBQUdFVUFBTUFvQWdBQVJoRUFBRENLQUFDQVVRUUFBSXdpQUFCZ0ZBRUFBS01JQUFBWVJRQUF3Q2dDQUFCR0VRQUFNSW9BQUlCUkJBQUFqQ0lBQUdBVUFRQUFvd2dBQUJoRkFBREFLQUlBQUVZUkFBQXdpZ0FBZ0ZFRUFBQ01JZ0FBWUJRQkFBQ2pDQUFBR0VVQUFNQW9BZ0FBUmhFQUFEQ0tBQUNBVVFRQUFJd2lBQUJnRkFGb1crejJCcUF0U3g0dkJycS9NRjVMUUFEYWxtaTN0d0R0OENwTEdERVY4UXgwWCtHTHVRUUVvRDB4eXU0bWh4cjlJWXFJeWt3VzZ5RzZkbVlIcDFJUGNTYUxvaHhYOW8zZHpSZ1pyVFlSZ0RZNGtSRGsxM3VET09hRlBoQ2ppTk10dGJpckdaUDluc3FqU0tLeXF4bTMxS0k0WlU3cGZWRkVuUHg2YndpQkdhMDlmRnh0VXRsUmp4S1hzcXFBZzZ4MUJ2QlVQVXBvYjd4VVJJSThWZWNNb0Qrb2lFVFpVZWRyMlRZQzBJWWdrbnJkdUtmSXN2YVdGTkFWclNHNlozY2VwTzBBQkpGN2R1ZlM1bitJcm5BcVdSWTM3aWxTcjZIYkc5TmZDRUFiUXBRQko0L1BoeTF6UVoyd3EvVTRwOUpzeHZ1blFydnpRcXYwOTArRlpwUFM5N29nb2s2MnpJWEg1OE9BazhBcFd6c0lRSHNTbGRsbXZHTlhJWW15cS9XeUlvb2srdkJNOGZEZW91cmJteGRDbEtxWGgvY1dEODhVa21qQlFQZXdFRVVTdldOWE1kdU0zQWpVTGdMUW5oQ2w1UFViMjdKR016b1dpSHVicWx5M05XOFVTOW5MblVpamtPdTI1c3FjMHNPaWlGTnBOT00zdG1VbHp6Rloyd2hBZTRMSVlDTDNUeFczYk05Y3lyRmhqd29penN2ajA4Vk4yN1BoZENuelFvZ3luT3BOMjdQSHB3dm5XZTdyVVVVVWwrb3QyN1A3cDRyQmhHRnFHd0ZvVzR4U2N2cFhtN01zaThwSlFFOEtRVFRSTDI1dXptWXhYZElZUlpGVVpUYUxYOXpjMUVRRFUwdnZpU0txa21YeHJ6Wm5KVzdZWFJJQzBMWWdNcFRJZzlQRkZ4OXYraEluQVQybmlKS1U5VWRQNXpkc3pVWkxtaTkxZ1BJb295VzlZV3YybzZmenBNeEE5NXdpaWkvcEZ4OXZQamhkREhINHZ5UTZNamJaN1czb1B5b1NSWW9vUHpwellQMktwTWdpanczb0VTR0tPSm5ONVEwL25uOXNQbFNYdHk3c1ZHcEZQR2JRL2VSM0IwY1NrU0RjRk5RamlpZysxUWVleTgvNjJVTHJhUjhFZWdrNEExaUtLT0pWc2hEZisyQjl1aEY5bXplWjRBQ0pJbEhGSlhybHorc1B6NGFoWlY4VkRGR0d2RDQ4RzY3OGVkMGxHbG54NncwaGl2Y3kzWWp2ZmJDZWhlZ1psNlVpQUV0VVJCbEs5Tkc1OFBaTnRabGNuQmVXQ0xvclJBa2lQdEVySDZ6ZnREMmJXTWJpend2bFVTWktldFAyN01vSDZ6N1JJTVMreTRvb3pzdE1MbS9mVkh0MExneHhuKzR5RUlDbHk2T01wdnJUM2NYYk50YW1NL0dwNXBFamtlN0lvemd2UHRFckg2cHYyTnpzMU96Ly9COCtVZElObTV0WFBsVDNpVG92SGZ6RHNmK2lTQjdGcHpxZHlkczIxbjY2dXhoTk96blFCbkVOWUxrU2xaa3NIamZrcmwwL2NQcEtMODFZUkhGTGVnUXhscUNJb2lLdXBEdm53L3NmcW45dlp6NStZRzdQOVNwVFdYejc2dVRhZFpYVmd5NDBZK1NSMFFkTGJDMzdxRWhKNzkxVnZQK0JoVi9QQldiLzVTTUFIWkNvek9WU2N2THhZMG9mZTFVcFRWV3ltRWR4SWtvSkRveldqS0FpTGxVUnVYbGI5bWNQTjdZc2hJa0RPU2trS251eXVHYkFmZUg0OHNWSHBpSVNzdFlqUnhubEF5S0t4Q2loOWF6L1ZMTXMvdGZIbTU5N3JOa01NcFJ3SHRZQkJLQXp2RW9lWlc4VzE0LzVxMTZSL3NFUmFhbWtVa1FwcElnU2VhWlloN1MrOG9tS09CR3ZFdVN1Wi9Ndi9xWjUrODY4NUxSNjRCZG5FcFZhSWMwUXoxdWRmT1NWcFhOWEplSkVpaWhoMzEvTlFIZEVmUDZkUEY3RWE3TVp2N1U5KzlMbTdJSHBZampWUkxuazFoa0VvR05hKyt0Y0xzMFFmMmZjLytHUnladFhKc2NNT1ovcXZzZExZdmxhODJzUnQ5YmlqM1lYMzltZTNmNXNYa1FaU3pVZXJNdXpyZVA5NlN4NmxmTldKZTg2SWoxcjByK3NxdnZXZzVpWU9zS0pSQ215K05oY3VHTlgvdmZiOHZ1bmlwTFRvV1RmRVJVNmdnQjBXR3QybU0rbFdjVFJraDQ5NkU2ZjhJY1A2SWxEYnF5a2tTZVdMME1lNVlHWjRybG0zTFNuK045ellWYzlPcFdSVkZXNmNEell1dlZ3Tm9zaHlzcUt2bnJJblRIaFY1UjAvYWpua1dSTDF2cHg3M1F6L25JdVBMVVE3OTFUL0hZK3pEUmp5ZXRnSWdldDhYWVFnQVBDcVRpUkxFcWprR2FJRWtVZHZ5SHFnQ0tJaUNST0trNVRKOUtOcWYrRldnZjlXWkI2aUhrUUVmSGNXTGRzSVVvTUlpb2xwMlV2cVFwMzN4NGdCT0RBYXAwUXRINm15QTY4ZkszWk5ZakVYbG9IVUJIVi83dHRXS1lYZm1XWTl3K29wTnNiY0loajkrMnMzcHhlbjc5WkJlZ3ZuSzhDZ0ZFRUFBQ01JZ0FBWUJRQkFBQ2pDQUFBR0VVQUFNQW9BZ0FBUmhFQUFEQ0tBQUNBVVFRQUFJd2lBQUJnRkFFQUFLTUlBQUFZUlFBQXdDZ0NBQUJHRVFBQU1Jb0FBSUJSQkFBQWpDSUFBR0FVQVFBQW93Z0FBQmhGQUFEQUtBSUFBRVlSQUFBd2lnQUFnRkVFQUFDTUlnQUFZQlFCQUFDakNBQUFHRVVBQU1Bb0FnQUFSaEVBQURDS0FBQ0FVUVFBQUl3aUFBQmdGQUVBQUtNSUFBQVlSUUFBd0NnQ0FBQkdFUUFBTUlvQUFJQlJCQUFBakNJQUFHQVVBUUFBb3dnQUFCaEZBQURBS0FJQUFFWVJBQUF3aWdBQWdGRUVBQUNNSWdBQVlCUUJBQUNqQ0FBQUdFVUFBTUFvQWdBQVJoRUFBRENLQUFDQVVRUUFBSXdpQUFCZ0ZBRUFBS01JQUFBWVJRQUF3Q2dDQUFCR0VRQUFNSW9BQUlCUkJBQUFqQ0lBQUdBVUFRQUFvd2dBQUJoRkFBREFLQUlBQUVZUkFBQXdpZ0FBZ0ZFRUFBQ01JZ0FBWUJRQkFBQ2pDQUFBR0VVQUFNQW9BZ0FBUmhFQUFEQ0tBQUNBVVFRQUFJd2lBQUJnRkFFQUFLTUlBQUFZUlFBQXdDZ0NBQUJHRVFBQU1Jb0FBSUJSQkFBQWpDSUFBR0FVQVFBQW93Z0FBQmhGQUFEQUtBSUFBRVlSQUFBd2lnQUFnRkVFQUFDTUlnQUFZQlFCQUFDakNBQUFHRVVBQU1Bb0FnQUFSaEVBQURDS0FBQ0FVUVFBQUl3aUFBQmdGQUVBQUtNSUFBQVlSUUFBd0NnQ0FBQkdFUUFBTUlvQUFJQlJCQUFBakNJQUFHQVVBUUFBb3dnQUFCaEZBQURBS0FJQUFFWVJBQUF3aWdBQWdGRUVBQUNNSWdBQVlCUUJBQUNqQ0FBQUdFVUFBTUFvQWdBQVJoRUFBRENLQUFDQVVRUUFBSXdpQUFCZzFQOEIrb1pBaGg5Ykg4WUFBQUFBU1VWT1JLNUNZSUk9IiwgInNpemVzIjogIjUxMng1MTIiLCAidHlwZSI6ICJpbWFnZS9wbmciLCAicHVycG9zZSI6ICJhbnkifV19">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAJkUlEQVR4nO3db4wcdR3H8e/395vZf73bHpTelVPbYNJUWoltxJRSTLTFig3RmIA+0RYxCAmJPPABKoqxKsgDn0OJaNGEtKUSlECtCmqgQEJiDIpcCG2pXHst0Gvv9vZ2d2Z+Xx9sQaz9dnehM7O/u88rfXib+d7s+347uzsz5erQIgI4G5P3ANC/EAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeoEAeogrwHOJ+Y2VorIiKS/aaZOUmS7DednrkTh7W22WyemjxhgtAak+VTxESJcy6OKgODxWIxSZIMN56iORKHMWZycnLpsmVf/MbNa9deUa1WkyRh5gw2LSLW2qmpqeeff+6RR35z+LXXhoaGnHMZbDptPAf+d0hjzPT01NYbvnbnnT8Y/eCSJKbsl3ZmsgEdeX1i27Yf7vjlLwYHq3OgD+/jsNZOnnjrJ3ff8+3bv3VyarbZaLDJ5yhbnCuWSkPV8k/v+dkd37n9ggsX+f764ncc1tqTk5PXXf+lB3/9q1OnponI5FRGW3u1WLhwcMtXvvrw7l1DF1zgdR8ex8HMzrkgCP7wxydXfGRFrTZjrc17KEqSZGBgwdjLY5+5ekMcx8YYf9+/ePw5hzFmZmbminXrLl21stcynHNJ13p6dq21tdrMpatWXrFu3czMTL4r2fvk8bsVZnZxtHr1mjCgnp4/51y5XC4Uwm4exEyzs41Wq9X90ywiYUCrV6954rHfZfOOKSUex9EWBEFPT4CILFhQeemlf42//noQBnTuPpjiOF65ctXo6Gi9Xu++D2YOAv/3bd4DvF89rRlJklSrA3v27LnlpptaUcTM5344M8dxvGzZst17Hlm+fHmj0ehp/eh+sP7kfRw9YWZms/2++xrNxvDwSBzHHR8ShuGhA6/s3rnzrru39bR4zAHzKw4RYaaNG69++i9PThw9SiLU8XWFJCiU1n/yqmYro49c+8f8isNaW6vVv3nbbaOjHzh44NWwUOj4stJqta68cv2GDRunp+v98FY5S/MrDiISkSSRrTdssZaE6NxLQfsHmi2ZqdWMmV/LBs3DONomJ091f8BojJlXhxrvmKdxzLcXiPdmPv5BQJcQB6gQB6gQB6gQB6gQB6gQB6gQB6gQB6gQB6gQB6gQB6gQB6gQB6i8j6Nvz+Pt28G6530c1tpO54HmQubAKSMexyEibOzY2MtJwn116i8zJwmPjb3Mxnq9fngch3OuXKk8u3//+PiRYrHYJ0+DiBSLxfHxI8/u31+uVLy+EYPHcYhIqVQ6fOjg/du3VwdLURTlPRERURRF1cHS/du3Hz50sFQq9Umy743HV9m3MXNjdnbn7oe/cO01R984ycx5nQzsnBORixcPPfrY3i9ff12pXPa6DJobcSRJXCwWf/Tju278+o0i1Gg0nXNZHoWIiDGmVCoy0wM/f+D73/tus9m0NkAc+TPGRFHUaDQ2bfrslq1bP3rZZZXKAudcNnmIkDGmXp/5x4svPrhjx759vy+VSmEYen200TYX4qC37/Q4PTXlRIaHhwvFojjX6ZKl80XYmFazefz4ccM8WK3mcq/LNMyRONraHy1EUZT9X60xJgxDIvL6Pk9nmFMXNbWfGGttLh9AzaUs2nKOI5V1v9OS/t5W/I6jpvG75PvilE8cTGSZEqEoj98+5NNb72bjHo163uUQh2VqOjoVSSXgiwrc8VL386i9rTdb0t560VByzr3u0ahpyPqA1DCdjORDJb75ksI1I8GHy1l/KSJEB2Zl77H4voOtfzdkKGSn7HSPRk1JpnEYplosm4eDe9eULh4wlBBl/Ou+M4elozV3y98ajx+PB4Kz7HSPRk1PdnFYppORXDsS/HZ9hZzECRmiXL5MFSFHFFgiw59/pv7YsXgo5Hcv2h6NmqqM4mCiSGhRyC98qrK4xC4hm/d37ImQsfRGQy7/c/2tSEI+fdDn0ahpy+g7KstUj+XWS8LhAZPE+e/u9khJTMMD5tZLwnos74zk0ahpyyiOWKgS8OaRQJLe1mcnFPfyr6c/KWaShDaPBJWA47cf6dGoacvirWx7oV5c4KVlZifd33hNhIwlE3T/AOpprxsmdrK0zIsL/EZLQibyZ9QMCsnuc46Ot/w88+eFOKBXp9yuI3E3uzwRqga0dWmhWiBxPXwg8f+DeTRqqvr0uxUhIkMTs7Lp2dkD045MFzeTJaJYnnor2bW2bLL9tMqXUXvVp3E4IRvw2FRyoOZGKl29eTNEjZD/+mZSa8pQgUUy2ukejdqrPo3DMEksn1hkNy8JHj8Wh4Y6fgfPRLGjO1YUF5aMi3s4XHifPBq1V30aBxMJUcXSo2vLz51IutndidBgQB+/0FIiWX5g5dGoverTOKj9SuwoYLpqpOshhSSR7Pe2R6P2pH/jaBMi1/WX5UyU4xLt0ahd6vc42qdTeMGjUbvk8UVNkDbEASrEASrEASrEASrEASrEASrEASrEASrEASrEASrEASrEASrEAapM4+jPL7TPOpVHo6YnuzgcUWZX4/QkljPP+vRo1FRlEYcQFQxNNNxYzYnN+j4C5+CExPJYzU00XMGcvirEl1EzkNHK0T7f+qHxmE3HuzJlR4TY0EPjcfyuK4s8GjVt2V1l74hE6Kn15csvCqKWhHkfCkeOwgK/8Gb86Wdmmf97LZJHo6Ytu/tzGKZ6LMsHzJ+uqoyUjYsksxuFnkGIDJEJ+dis2/h0/ZWaq/zvTVE8GjVVmd7ZxzLVExot8b0fK21aEmT3J3AGJnK0byK+5e+NIw2p2LPcbsujUVPcePb3BGskFItcMxx8bkmwaiDrE/SF6J8198REvPd4HDCXrHo7J49GTUkOdzA2RMQ0FYkTsnm8nCeODFM1ZOr0ztCjUdOQw3UrjoiEFobcPvTLXvslopv12aNR05DbRU15/cLU+9Ps0ajnV97v0qCPIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5QIQ5Q/QfzOt0OcuYvKAAAAABJRU5ErkJggg==">
+<style>
+:root{
+  --bg:#0E1013;
+  --surface:#161A20;
+  --surface2:#1D222A;
+  --line:#2A313C;
+  --ink:#EAEEF3;
+  --muted:#8B95A3;
+  --signal:#FF5A1F;
+  --pos:#37C98A;
+  --neg:#FF5B5B;
+  --paper:#F1ECE2;
+  --paper-ink:#171412;
+  --paper-line:#C9C0B1;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Roboto,sans-serif;
+  --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+  --r:14px;
+  --safe-top:env(safe-area-inset-top,0px);
+  --safe-bottom:env(safe-area-inset-bottom,0px);
+}
+
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:16px;line-height:1.4;
+  -webkit-font-smoothing:antialiased;
+  overscroll-behavior-y:none;
+}
+button,input,select,textarea{font:inherit;color:inherit}
+button{background:none;border:0;cursor:pointer}
+h1,h2,h3{margin:0;font-weight:650;letter-spacing:-.02em}
+a{color:var(--signal)}
+
+/* ---------- Topbar ---------- */
+#topbar{
+  position:sticky;top:0;z-index:40;
+  padding:calc(var(--safe-top) + 10px) 16px 10px;
+  background:rgba(14,16,19,.86);
+  backdrop-filter:saturate(160%) blur(14px);
+  -webkit-backdrop-filter:saturate(160%) blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.topbar-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
+#viewTitle{font-size:26px}
+.icon-btn{
+  width:36px;height:36px;border-radius:10px;color:var(--muted);
+  display:grid;place-items:center;font-size:15px;background:var(--surface2);
+}
+.icon-btn:active{background:var(--line)}
+.searchwrap{margin-top:10px}
+#search{
+  width:100%;background:var(--surface2);border:1px solid var(--line);
+  border-radius:11px;padding:9px 12px;font-size:15px;
+  -webkit-appearance:none;appearance:none;
+}
+#search::placeholder{color:var(--muted)}
+#search:focus{outline:2px solid var(--signal);outline-offset:-1px}
+
+/* ---------- Layout ---------- */
+#main{padding:14px 16px calc(96px + var(--safe-bottom))}
+.view{animation:fade .18s ease}
+@keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+.eyebrow{
+  font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);margin:22px 0 8px;
+}
+.eyebrow:first-child{margin-top:2px}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px}
+.stack{display:flex;flex-direction:column;gap:8px}
+
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.pos{color:var(--pos)}
+.neg{color:var(--neg)}
+.dim{color:var(--muted)}
+
+.btn{
+  background:var(--signal);color:#12100E;font-weight:680;
+  border-radius:12px;padding:13px 16px;width:100%;text-align:center;
+  letter-spacing:-.01em;
+}
+.btn:active{filter:brightness(.9)}
+.btn-ghost{background:var(--surface2);color:var(--ink);border:1px solid var(--line);font-weight:560}
+.btn-danger{background:transparent;color:var(--neg);border:1px solid var(--neg)}
+.btn-row{display:flex;gap:8px;margin-top:12px}
+
+.empty{
+  border:1px dashed var(--line);border-radius:var(--r);padding:26px 18px;
+  text-align:center;color:var(--muted);font-size:14px;
+}
+.empty b{display:block;color:var(--ink);font-size:15px;margin-bottom:4px;font-weight:600}
+
+/* ---------- Kennzahlen ---------- */
+.kpis{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 13px}
+.kpi .lab{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-family:var(--mono)}
+.kpi .val{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:20px;margin-top:5px;letter-spacing:-.03em}
+.kpi.wide{grid-column:1/-1}
+
+.chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chip{
+  flex:0 0 auto;background:var(--surface2);border:1px solid var(--line);
+  border-radius:999px;padding:7px 13px;font-size:13.5px;color:var(--muted);
+}
+.chip.is-active{background:var(--ink);color:var(--bg);border-color:var(--ink);font-weight:600}
+
+/* ---------- Produktliste ---------- */
+.row{
+  display:flex;align-items:center;gap:12px;width:100%;text-align:left;
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:10px 12px;
+}
+.row:active{background:var(--surface2)}
+.thumb{
+  width:46px;height:46px;border-radius:10px;flex:0 0 auto;object-fit:cover;
+  background:var(--surface2);border:1px solid var(--line);
+  display:grid;place-items:center;color:var(--muted);font-size:16px;
+}
+.row-main{flex:1;min-width:0}
+.row-title{font-weight:600;font-size:15.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row-sub{font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row-end{text-align:right;flex:0 0 auto}
+.row-end .big{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:16px}
+.row-end .small{font-size:11.5px;color:var(--muted);font-family:var(--mono)}
+.low{color:var(--neg)!important}
+.badge{
+  display:inline-block;font-size:10.5px;font-family:var(--mono);letter-spacing:.08em;
+  text-transform:uppercase;padding:2px 6px;border-radius:5px;
+  background:var(--surface2);border:1px solid var(--line);color:var(--muted);
+}
+.badge.warn{color:var(--signal);border-color:rgba(255,90,31,.4)}
+
+/* ---------- Rang-Liste ---------- */
+.rank{display:flex;align-items:center;gap:12px;padding:11px 12px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.rank-no{
+  font-family:var(--mono);font-size:13px;width:26px;flex:0 0 auto;text-align:center;
+  color:var(--muted);border-right:1px solid var(--line);padding-right:8px;
+}
+.rank:nth-child(1) .rank-no{color:var(--signal);font-weight:700}
+
+/* ---------- Beleg (Erfassung) ---------- */
+.receipt{
+  background:var(--paper);color:var(--paper-ink);
+  border-radius:12px 12px 0 0;padding:18px 18px 10px;
+  font-family:var(--mono);position:relative;
+  box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
+.receipt-foot{
+  height:11px;background:var(--paper);
+  clip-path:polygon(0 0,100% 0,100% 0,96% 100%,92% 0,88% 100%,84% 0,80% 100%,76% 0,72% 100%,68% 0,64% 100%,60% 0,56% 100%,52% 0,48% 100%,44% 0,40% 100%,36% 0,32% 100%,28% 0,24% 100%,20% 0,16% 100%,12% 0,8% 100%,4% 0,0 100%);
+}
+.receipt-head{text-align:center;border-bottom:1px dashed var(--paper-line);padding-bottom:10px;margin-bottom:6px}
+.receipt-head .t{font-size:13px;letter-spacing:.22em;text-transform:uppercase;font-weight:700}
+.receipt-head .d{font-size:11px;color:#6C645A;margin-top:2px;letter-spacing:.06em}
+.rline{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px dotted var(--paper-line)}
+.rline label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#6C645A;flex:0 0 82px}
+.rline input,.rline select{
+  flex:1;min-width:0;background:transparent;border:0;color:var(--paper-ink);
+  font-family:var(--mono);font-size:15px;text-align:right;padding:2px 0;
+  -webkit-appearance:none;appearance:none;
+}
+.rline select{text-align:right;text-align-last:right;padding-right:2px}
+.rline input:focus,.rline select:focus{outline:0;box-shadow:0 2px 0 var(--signal)}
+.rtotal{display:flex;justify-content:space-between;align-items:baseline;padding:9px 0 2px;border-top:2px solid var(--paper-ink);margin-top:8px}
+.rtotal .l{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+.rtotal .v{font-size:23px;font-weight:700;font-variant-numeric:tabular-nums}
+.rprofit{display:flex;justify-content:space-between;font-size:12.5px;color:#6C645A;padding-bottom:8px}
+.rprofit .g{color:#1E7A4F;font-weight:700}
+.rprofit .r{color:#B0342F;font-weight:700}
+
+.seg{display:flex;gap:4px;background:var(--surface2);border:1px solid var(--line);border-radius:12px;padding:4px;margin-bottom:14px}
+.seg button{flex:1;padding:9px 4px;border-radius:9px;font-size:13px;color:var(--muted);font-weight:560}
+.seg button.is-active{background:var(--signal);color:#12100E;font-weight:680}
+
+/* ---------- Chart ---------- */
+.chart{width:100%;height:auto;display:block}
+.chart .bar-r{fill:var(--surface2)}
+.chart .bar-p{fill:var(--signal)}
+.chart text{fill:var(--muted);font-family:var(--mono);font-size:9px}
+.legend{display:flex;gap:14px;font-size:11.5px;color:var(--muted);font-family:var(--mono);margin-top:6px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+
+/* ---------- Tabbar ---------- */
+#tabbar{
+  position:fixed;left:0;right:0;bottom:0;z-index:50;
+  display:grid;grid-template-columns:repeat(5,1fr);
+  background:rgba(14,16,19,.9);
+  backdrop-filter:saturate(160%) blur(16px);
+  -webkit-backdrop-filter:saturate(160%) blur(16px);
+  border-top:1px solid var(--line);
+  padding-bottom:var(--safe-bottom);
+}
+.tab{
+  display:flex;flex-direction:column;align-items:center;gap:3px;
+  padding:9px 2px 8px;font-size:10.5px;color:var(--muted);letter-spacing:.01em;
+}
+.tab-ico{font-size:16px;line-height:1}
+.tab.is-active{color:var(--signal)}
+
+/* ---------- Sheet ---------- */
+.sheet{position:fixed;inset:0;z-index:100;display:flex;align-items:flex-end}
+.sheet[hidden]{display:none}
+.sheet-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.55)}
+.sheet-panel{
+  position:relative;width:100%;max-height:92vh;overflow-y:auto;
+  background:var(--bg);border-top:1px solid var(--line);
+  border-radius:20px 20px 0 0;
+  padding:0 16px calc(20px + var(--safe-bottom));
+  animation:up .22s cubic-bezier(.2,.8,.2,1);
+  -webkit-overflow-scrolling:touch;
+}
+@keyframes up{from{transform:translateY(14%)}to{transform:none}}
+.sheet-head{
+  position:sticky;top:0;background:var(--bg);z-index:2;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:16px 0 12px;border-bottom:1px solid var(--line);margin-bottom:14px;
+}
+.sheet-head h2{font-size:19px}
+
+.field{margin-bottom:11px}
+.field label{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-family:var(--mono);margin-bottom:5px}
+.field input,.field select,.field textarea{
+  width:100%;background:var(--surface);border:1px solid var(--line);border-radius:11px;
+  padding:11px 12px;font-size:16px;-webkit-appearance:none;appearance:none;
+}
+.field input:focus,.field select:focus,.field textarea:focus{outline:2px solid var(--signal);outline-offset:-1px}
+.field-2{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.photo-pick{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.photo-pick img,.photo-pick .ph{
+  width:64px;height:64px;border-radius:12px;object-fit:cover;
+  background:var(--surface2);border:1px dashed var(--line);display:grid;place-items:center;color:var(--muted);font-size:20px;
+}
+.photo-pick .acts{display:flex;flex-direction:column;gap:6px;flex:1}
+.photo-pick .acts button{background:var(--surface2);border:1px solid var(--line);border-radius:10px;padding:8px;font-size:13px}
+
+.ledger{display:flex;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
+.ledger:last-child{border-bottom:0}
+.ledger .lm{min-width:0}
+.ledger .ld{font-size:11.5px;color:var(--muted);font-family:var(--mono)}
+.ledger .lv{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+
+.toast{
+  position:fixed;left:50%;bottom:calc(84px + var(--safe-bottom));transform:translateX(-50%);
+  background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;
+  font-size:14px;font-weight:600;z-index:200;box-shadow:0 8px 24px rgba(0,0,0,.4);
+}
+
+/* ---------- Start / Login ---------- */
+.boot{
+  position:fixed;inset:0;z-index:300;display:grid;place-content:center;
+  gap:10px;justify-items:center;background:var(--bg);
+}
+.boot-mark{
+  width:62px;height:62px;border-radius:16px;background:var(--signal);color:#12100E;
+  display:grid;place-items:center;font-size:26px;
+}
+.boot-text{font-family:var(--mono);font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+.boot[hidden]{display:none}
+
+.auth{
+  position:fixed;inset:0;z-index:200;overflow-y:auto;background:var(--bg);
+  padding:calc(var(--safe-top) + 28px) 20px calc(var(--safe-bottom) + 28px);
+}
+.auth[hidden]{display:none}
+.auth-card{max-width:420px;margin:0 auto}
+.auth-mark{
+  width:54px;height:54px;border-radius:15px;background:var(--signal);color:#12100E;
+  display:grid;place-items:center;font-size:23px;margin-bottom:18px;
+}
+.auth-title{font-size:30px;letter-spacing:-.03em}
+.auth-sub{color:var(--muted);font-size:14.5px;margin:6px 0 20px}
+.auth-error{
+  background:rgba(255,91,91,.1);border:1px solid rgba(255,91,91,.35);color:var(--neg);
+  border-radius:11px;padding:10px 12px;font-size:14px;margin:0 0 12px;
+}
+.auth-error[hidden]{display:none}
+.auth-note{color:var(--muted);font-size:12.5px;text-align:center;margin:14px 0 0}
+
+.offbar{
+  background:rgba(255,90,31,.12);border-bottom:1px solid rgba(255,90,31,.3);
+  color:var(--signal);font-size:12.5px;font-family:var(--mono);
+  padding:7px 16px;text-align:center;
+}
+.offbar[hidden]{display:none}
+
+/* ---------- Anfragen ---------- */
+.req{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:13px}
+.req-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:8px}
+.req-title{font-weight:600;font-size:15.5px}
+.req-meta{font-size:12.5px;color:var(--muted);font-family:var(--mono);margin-top:2px}
+.req-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:10px 0 0;
+  border-top:1px solid var(--line);padding-top:10px}
+.req-grid div{font-size:12px;color:var(--muted);font-family:var(--mono)}
+.req-grid b{display:block;color:var(--ink);font-size:15px;margin-top:3px;font-variant-numeric:tabular-nums}
+.req-text{font-size:14px;color:var(--ink);background:var(--surface2);border-radius:9px;padding:9px 11px;margin-top:9px}
+.st{font-size:10.5px;font-family:var(--mono);letter-spacing:.08em;text-transform:uppercase;
+  padding:3px 8px;border-radius:6px;white-space:nowrap;flex:0 0 auto}
+.st-offen{background:rgba(255,90,31,.14);color:var(--signal)}
+.st-angenommen{background:rgba(55,201,138,.14);color:var(--pos)}
+.st-abgelehnt{background:rgba(255,91,91,.14);color:var(--neg)}
+.st-erledigt{background:var(--surface2);color:var(--muted)}
+
+</style>
+<script src="config.js"></script>
+</head>
+<body>
+
+<div id="boot" class="boot"><div class="boot-mark">▤</div><div class="boot-text">Lager</div></div>
+
+<section id="auth" class="auth" hidden>
+  <div class="auth-card">
+    <div class="auth-mark">▤</div>
+    <h1 class="auth-title">Lager</h1>
+    <p class="auth-sub" id="authSub">Melde dich mit deinem Zugang an.</p>
+
+    <div class="seg" id="authSeg">
+      <button data-m="login" class="is-active">Anmelden</button>
+      <button data-m="signup">Registrieren</button>
+    </div>
+
+    <div class="field"><label>E-Mail</label>
+      <input id="auEmail" type="email" inputmode="email" autocomplete="username" autocapitalize="none" spellcheck="false"></div>
+    <div class="field"><label>Passwort</label>
+      <input id="auPass" type="password" autocomplete="current-password"></div>
+    <div id="signupOnly" hidden>
+      <div class="field"><label>Dein Name</label><input id="auName" autocomplete="name"></div>
+      <div class="field"><label>Einladungscode</label>
+        <input id="auCode" autocapitalize="characters" autocomplete="off" spellcheck="false"></div>
+    </div>
+
+    <p class="auth-error" id="auErr" hidden></p>
+    <button class="btn" id="auGo">Anmelden</button>
+    <p class="auth-note">Kein Konto? Du brauchst einen Einladungscode vom Betreiber.</p>
+  </div>
+</section>
+
+<div id="app" hidden>
+  <header id="topbar">
+    <div class="topbar-row">
+      <h1 id="viewTitle">Lager</h1>
+      <button id="menuBtn" class="icon-btn" aria-label="Menü">•••</button>
+    </div>
+    <div class="searchwrap">
+      <input id="search" type="search" placeholder="Suchen" autocomplete="off" autocorrect="off" spellcheck="false">
+    </div>
+  </header>
+
+  <div id="offlineBar" class="offbar" hidden></div>
+
+  <main id="main"></main>
+  <nav id="tabbar"></nav>
+</div>
+
+<div id="sheet" class="sheet" hidden>
+  <div class="sheet-backdrop" data-close></div>
+  <div class="sheet-panel" role="dialog" aria-modal="true">
+    <div class="sheet-head">
+      <h2 id="sheetTitle"></h2>
+      <button class="icon-btn" data-close aria-label="Schließen">✕</button>
+    </div>
+    <div class="sheet-body" id="sheetBody"></div>
+  </div>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+
+<script>
+/* =========================================================
+   Lager — Warenwirtschaft mit Admin- und Lieferantenzugang
+   Daten liegen in Supabase. Zugriffsrechte in der Datenbank.
+   ========================================================= */
+
+/* ---------- Supabase-Anbindung ---------- */
+const SB = {
+  url: (window.SUPABASE_URL || '').replace(/\/+$/, ''),
+  key: window.SUPABASE_KEY || '',
+  token: null,
+  refresh: null,
+
+  configured() {
+    return this.url && this.key && !this.url.includes('DEIN-PROJEKT') && !this.key.includes('DEIN-ANON');
+  },
+  async authCall(path, body) {
+    const r = await fetch(`${this.url}/auth/v1/${path}`, {
+      method: 'POST',
+      headers: { apikey: this.key, 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    const d = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(d.error_description || d.msg || d.message || d.error || 'Anmeldung fehlgeschlagen');
+    return d;
+  },
+  head(extra) {
+    return Object.assign({
+      apikey: this.key,
+      Authorization: 'Bearer ' + (this.token || this.key),
+      'Content-Type': 'application/json'
+    }, extra || {});
+  },
+  async rest(path, opts) {
+    opts = opts || {};
+    const r = await fetch(`${this.url}/rest/v1/${path}`, {
+      method: opts.method || 'GET',
+      headers: this.head(opts.headers),
+      body: opts.body
+    });
+    if (r.status === 401) { await Auth.tryRefresh(); throw new Error('Sitzung abgelaufen'); }
+    if (!r.ok) throw new Error((await r.text()) || 'Serverfehler');
+    if (r.status === 204) return null;
+    return r.json();
+  },
+  select(t, q) { return this.rest(t + '?' + (q || 'select=*')); },
+  insert(t, row) {
+    return this.rest(t, { method: 'POST', headers: { Prefer: 'return=representation' }, body: JSON.stringify(row) });
+  },
+  update(t, id, patch) {
+    return this.rest(`${t}?id=eq.${id}`, { method: 'PATCH', headers: { Prefer: 'return=representation' }, body: JSON.stringify(patch) });
+  },
+  remove(t, id) { return this.rest(`${t}?id=eq.${id}`, { method: 'DELETE' }); }
+};
+
+/* ---------- Sitzung ---------- */
+const Auth = {
+  me: null,
+  save(d) {
+    SB.token = d.access_token; SB.refresh = d.refresh_token;
+    try {
+      localStorage.setItem('lager_session', JSON.stringify({ a: d.access_token, r: d.refresh_token }));
+    } catch (e) { }
+  },
+  load() {
+    try {
+      const s = JSON.parse(localStorage.getItem('lager_session') || 'null');
+      if (s) { SB.token = s.a; SB.refresh = s.r; return true; }
+    } catch (e) { }
+    return false;
+  },
+  clear() {
+    SB.token = null; SB.refresh = null; this.me = null;
+    try { localStorage.removeItem('lager_session'); } catch (e) { }
+  },
+  async tryRefresh() {
+    if (!SB.refresh) return false;
+    try {
+      const d = await SB.authCall('token?grant_type=refresh_token', { refresh_token: SB.refresh });
+      this.save(d); return true;
+    } catch (e) { this.clear(); return false; }
+  },
+  async login(email, password) {
+    const d = await SB.authCall('token?grant_type=password', { email: email.trim(), password });
+    this.save(d);
+    return this.loadProfile();
+  },
+  async signup(email, password, name, code) {
+    await SB.authCall('signup', {
+      email: email.trim(), password,
+      data: { name: name.trim(), code: code.trim() }
+    });
+    return this.login(email, password);
+  },
+  uid() {
+    try {
+      const p = JSON.parse(atob(SB.token.split('.')[1].replace(/-/g, '+').replace(/_/g, '/')));
+      return p.sub;
+    } catch (e) { return null; }
+  },
+  async loadProfile() {
+    const id = this.uid();
+    if (!id) throw new Error('Sitzung ungültig');
+    const rows = await SB.select('profiles', `select=*&id=eq.${id}`);
+    if (!rows || !rows.length) throw new Error('Profil nicht gefunden. Wurde das SQL-Skript ausgeführt?');
+    this.me = rows[0];
+    return this.me;
+  },
+  isAdmin() { return this.me && this.me.role === 'admin'; }
+};
+
+/* ---------- Offline-Zwischenspeicher ---------- */
+const Cache = {
+  db: null,
+  open() {
+    return new Promise(res => {
+      const r = indexedDB.open('lagercache', 1);
+      r.onupgradeneeded = e => {
+        const d = e.target.result;
+        if (!d.objectStoreNames.contains('snap')) d.createObjectStore('snap');
+      };
+      r.onsuccess = e => { this.db = e.target.result; res(true); };
+      r.onerror = () => res(false);
+    });
+  },
+  put(key, val) {
+    if (!this.db) return Promise.resolve();
+    return new Promise(res => {
+      try {
+        const q = this.db.transaction('snap', 'readwrite').objectStore('snap').put(val, key);
+        q.onsuccess = () => res(); q.onerror = () => res();
+      } catch (e) { res(); }
+    });
+  },
+  get(key) {
+    if (!this.db) return Promise.resolve(null);
+    return new Promise(res => {
+      try {
+        const q = this.db.transaction('snap', 'readonly').objectStore('snap').get(key);
+        q.onsuccess = () => res(q.result || null); q.onerror = () => res(null);
+      } catch (e) { res(null); }
+    });
+  }
+};
+
+/* ---------- Zustand ---------- */
+const S = { products: [], movements: [], partners: [], payments: [], requests: [], catalog: [] };
+let tab = 'stock';
+let offlineSince = null;
+const query = {};
+let period = 'month';
+let statsYear = new Date().getFullYear();
+let entryType = 'sale';
+const entryDraft = { productId: '', qty: '', unitPrice: '', date: today(), partnerId: '' };
+
+/* ---------- Helfer ---------- */
+const eur = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' });
+const num = new Intl.NumberFormat('de-DE', { maximumFractionDigits: 2 });
+const money = v => eur.format(+v || 0);
+function today() { return new Date().toISOString().slice(0, 10); }
+function deDate(iso) { if (!iso) return ''; const p = String(iso).slice(0, 10).split('-'); return `${p[2]}.${p[1]}.${p[0]}`; }
+const MONTHS = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+const MON3 = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const norm = s => String(s || '').toLowerCase();
+const byId = (arr, id) => arr.find(x => x.id === id);
+const n2 = v => { const n = parseFloat(String(v).replace(',', '.')); return isFinite(n) ? n : 0; };
+const f2 = v => (Math.round((+v || 0) * 100) / 100).toFixed(2).replace('.', ',');
+
+const TYPE_LABEL = { purchase: 'Einkauf', sale: 'Verkauf', consign: 'Ausgabe', return: 'Rückgabe' };
+const OUT = ['sale', 'consign'];
+const IN = ['purchase', 'return'];
+
+function toast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.hidden = false;
+  clearTimeout(toast._t);
+  toast._t = setTimeout(() => { t.hidden = true; }, 2200);
+}
+function fail(e) {
+  let m = (e && e.message) || String(e);
+  if (m.length > 160) m = m.slice(0, 160) + '…';
+  if (/Failed to fetch|NetworkError|Load failed/i.test(m)) m = 'Keine Verbindung';
+  toast(m);
+}
+
+/* ---------- Berechnungen (nur Admin) ---------- */
+function stockOf(pid) {
+  let n = 0;
+  for (const m of S.movements) {
+    if (m.product_id !== pid) continue;
+    if (IN.includes(m.type)) n += +m.qty; else n -= +m.qty;
+  }
+  return n;
+}
+const profitOf = m => m.type === 'return' ? -((m.unit_price - m.cost_price) * m.qty)
+  : OUT.includes(m.type) ? (m.unit_price - m.cost_price) * m.qty : 0;
+const revenueOf = m => m.type === 'return' ? -(m.unit_price * m.qty)
+  : OUT.includes(m.type) ? m.unit_price * m.qty : 0;
+const cogsOf = m => m.type === 'return' ? -(m.cost_price * m.qty)
+  : OUT.includes(m.type) ? m.cost_price * m.qty : 0;
+const unitsOf = m => m.type === 'return' ? -m.qty : OUT.includes(m.type) ? +m.qty : 0;
+
+function periodRange(p) {
+  const now = new Date(), y = now.getFullYear(), mo = now.getMonth(), d = now.getDate();
+  const iso = dt => dt.toISOString().slice(0, 10);
+  if (p === 'today') return [iso(new Date(y, mo, d)), iso(new Date(y, mo, d))];
+  if (p === 'week') { const dow = (now.getDay() + 6) % 7; return [iso(new Date(y, mo, d - dow)), iso(new Date(y, mo, d - dow + 6))]; }
+  if (p === 'month') return [iso(new Date(y, mo, 1)), iso(new Date(y, mo + 1, 0))];
+  if (p === 'year') return [`${y}-01-01`, `${y}-12-31`];
+  return ['0000-01-01', '9999-12-31'];
+}
+const inPeriod = (m, p) => { const r = periodRange(p); const d = String(m.date).slice(0, 10); return d >= r[0] && d <= r[1]; };
+
+function partnerBalance(pid) {
+  let credit = 0, debt = 0;
+  for (const m of S.movements) {
+    if (m.partner_id !== pid) continue;
+    const v = m.unit_price * m.qty;
+    if (m.type === 'consign') credit += v;
+    else if (m.type === 'return') credit -= v;
+    else if (m.type === 'purchase') debt += v;
+  }
+  for (const p of S.payments) {
+    if (p.partner_id !== pid) continue;
+    if (p.direction === 'in') credit -= +p.amount; else debt -= +p.amount;
+  }
+  return { credit, debt, net: credit - debt };
+}
+const stockValue = () => S.products.reduce((s, p) => s + stockOf(p.id) * (+p.buy_price || 0), 0);
+const openReceivables = () => S.partners.reduce((s, p) => { const n = partnerBalance(p.id).net; return s + (n > 0 ? n : 0); }, 0);
+
+/* ---------- Laden ---------- */
+async function loadData() {
+  try {
+    if (Auth.isAdmin()) {
+      const [products, movements, partners, payments, requests] = await Promise.all([
+        SB.select('products', 'select=*&order=name'),
+        SB.select('movements', 'select=*&order=date.desc'),
+        SB.select('profiles', 'select=*&order=name'),
+        SB.select('payments', 'select=*'),
+        SB.select('requests', 'select=*&order=created_at.desc')
+      ]);
+      Object.assign(S, { products, movements, partners, payments, requests });
+    } else {
+      const [catalog, requests] = await Promise.all([
+        SB.select('catalog', 'select=*&order=name'),
+        SB.select('requests', 'select=*&order=created_at.desc')
+      ]);
+      Object.assign(S, { catalog, requests });
+    }
+    offlineSince = null;
+    await Cache.put('data', { at: new Date().toISOString(), role: Auth.me.role, S: JSON.parse(JSON.stringify(S)) });
+  } catch (e) {
+    const snap = await Cache.get('data');
+    if (snap && snap.role === Auth.me.role) {
+      Object.assign(S, snap.S);
+      offlineSince = snap.at;
+    } else throw e;
+  }
+  const bar = document.getElementById('offlineBar');
+  bar.hidden = !offlineSince;
+  if (offlineSince) bar.textContent = 'Offline — Stand ' + deDate(offlineSince) + ', keine Änderungen möglich';
+}
+function requireOnline() {
+  if (offlineSince) { toast('Offline — geht gerade nicht'); return false; }
+  return true;
+}
+
+/* ---------- Tabs je Rolle ---------- */
+const ADMIN_TABS = [
+  ['stock', '▤', 'Lager'], ['entry', '✚', 'Erfassung'], ['finance', '€', 'Finanzen'],
+  ['partners', '⇄', 'Partner'], ['stats', '▮', 'Statistik']
+];
+const SUP_TABS = [['catalog', '▤', 'Katalog'], ['myreq', '✚', 'Anfragen']];
+const TITLES = {
+  stock: 'Lager', entry: 'Erfassung', finance: 'Finanzen', partners: 'Partner',
+  stats: 'Statistik', catalog: 'Katalog', myreq: 'Meine Anfragen'
+};
+const PLACEHOLDER = {
+  stock: 'Produkt, Marke, Kategorie', entry: 'Buchungen durchsuchen', finance: 'Produkt suchen',
+  partners: 'Partner oder Anfrage', stats: 'Produkt oder Partner',
+  catalog: 'Produkt oder Marke', myreq: 'Anfragen durchsuchen'
+};
+
+function buildTabs() {
+  const list = Auth.isAdmin() ? ADMIN_TABS : SUP_TABS;
+  tab = list[0][0];
+  const bar = document.getElementById('tabbar');
+  bar.style.gridTemplateColumns = `repeat(${list.length},1fr)`;
+  bar.innerHTML = list.map(([k, i, l]) =>
+    `<button class="tab" data-tab="${k}"><span class="tab-ico">${i}</span>${l}</button>`).join('');
+}
+
+function render() {
+  document.getElementById('viewTitle').textContent = TITLES[tab];
+  const s = document.getElementById('search');
+  s.placeholder = PLACEHOLDER[tab] || 'Suchen';
+  if (s.value !== (query[tab] || '')) s.value = query[tab] || '';
+  document.querySelectorAll('.tab').forEach(b => b.classList.toggle('is-active', b.dataset.tab === tab));
+  const fn = { stock: renderStock, entry: renderEntry, finance: renderFinance, partners: renderPartners,
+    stats: renderStats, catalog: renderCatalog, myreq: renderMyRequests }[tab];
+  document.getElementById('main').innerHTML = '<div class="view">' + fn() + '</div>';
+  const w = { entry: wireEntry, finance: wireFinance, partners: wirePartners, stats: wireStats,
+    stock: wireStock, catalog: wireCatalog, myreq: wireMyRequests }[tab];
+  if (w) w();
+}
+const q = () => norm(query[tab]);
+const emptyBox = (t, x) => `<div class="empty"><b>${esc(t)}</b>${esc(x)}</div>`;
+
+/* =========================================================
+   ADMIN-ANSICHTEN
+   ========================================================= */
+
+/* ----- Lager ----- */
+function renderStock() {
+  let list = S.products.slice();
+  if (q()) list = list.filter(p => norm(p.name).includes(q()) || norm(p.brand).includes(q()) || norm(p.category).includes(q()));
+  const units = S.products.reduce((s, p) => s + Math.max(0, stockOf(p.id)), 0);
+  const low = S.products.filter(p => stockOf(p.id) <= (+p.min_stock || 0)).length;
+  return `
+    <div class="kpis">
+      <div class="kpi"><div class="lab">Artikel im Lager</div><div class="val">${num.format(units)}</div></div>
+      <div class="kpi"><div class="lab">Lagerwert</div><div class="val">${money(stockValue())}</div></div>
+    </div>
+    <button class="btn" id="newProduct" style="margin-top:10px">Neues Produkt anlegen</button>
+    ${low ? `<p class="dim" style="font-size:13px;margin:12px 0 0">${low} Produkt(e) unter Mindestbestand.</p>` : ''}
+    <div class="eyebrow">${q() ? 'Treffer · ' + list.length : 'Produkte · ' + S.products.length}</div>
+    <div class="stack">${list.length ? list.map(productRow).join('')
+      : emptyBox(S.products.length ? 'Keine Treffer' : 'Noch keine Produkte',
+        S.products.length ? 'Andere Suche versuchen.' : 'Leg dein erstes Produkt an.')}</div>`;
+}
+function productRow(p) {
+  const st = stockOf(p.id), lowFlag = st <= (+p.min_stock || 0);
+  return `<button class="row" data-pid="${p.id}">
+    ${p.photo ? `<img class="thumb" src="${p.photo}" alt="">` : '<div class="thumb">▤</div>'}
+    <div class="row-main"><div class="row-title">${esc(p.name)}</div>
+      <div class="row-sub">${[p.brand, p.category].filter(Boolean).map(esc).join(' · ') || 'Ohne Marke'} · VK ${money(p.sell_price)}</div></div>
+    <div class="row-end"><div class="big ${lowFlag ? 'low' : ''}">${num.format(st)}</div><div class="small">Stück</div></div>
+  </button>`;
+}
+function wireStock() {
+  document.getElementById('newProduct').onclick = () => productSheet(null);
+  document.querySelectorAll('[data-pid]').forEach(el =>
+    el.onclick = () => productSheet(byId(S.products, el.dataset.pid)));
+}
+
+/* ----- Erfassung ----- */
+function renderEntry() {
+  let last = S.movements.slice();
+  if (q()) last = last.filter(m => {
+    const p = byId(S.products, m.product_id), pa = byId(S.partners, m.partner_id);
+    return norm(p && p.name).includes(q()) || norm(pa && pa.name).includes(q()) || norm(TYPE_LABEL[m.type]).includes(q());
+  });
+  last = last.slice(0, 40);
+  const opts = S.products.map(p =>
+    `<option value="${p.id}" ${p.id === entryDraft.productId ? 'selected' : ''}>${esc(p.name)}${p.brand ? ' · ' + esc(p.brand) : ''}</option>`).join('');
+  const pOpts = S.partners.filter(p => p.role === 'supplier').map(p =>
+    `<option value="${p.id}" ${p.id === entryDraft.partnerId ? 'selected' : ''}>${esc(p.name)}</option>`).join('');
+  return `
+    <div class="seg" id="segType">${Object.entries(TYPE_LABEL).map(([k, v]) =>
+      `<button data-t="${k}" class="${k === entryType ? 'is-active' : ''}">${v}</button>`).join('')}</div>
+    <div class="receipt">
+      <div class="receipt-head"><div class="t">${TYPE_LABEL[entryType]}</div>
+        <div class="d">Beleg-Entwurf · ${deDate(entryDraft.date)}</div></div>
+      <div class="rline"><label>Produkt</label><select id="fProd">${S.products.length
+        ? '<option value="">— wählen —</option>' + opts : '<option value="">Erst Produkt anlegen</option>'}</select></div>
+      <div class="rline"><label>Menge</label><input id="fQty" type="number" inputmode="decimal" min="0" step="1" placeholder="0" value="${esc(entryDraft.qty)}"></div>
+      <div class="rline"><label>Stückpreis</label><input id="fPrice" type="number" inputmode="decimal" min="0" step="0.01" placeholder="0,00" value="${esc(entryDraft.unitPrice)}"></div>
+      <div class="rline"><label>Datum</label><input id="fDate" type="date" value="${entryDraft.date}"></div>
+      <div class="rline"><label>Partner</label><select id="fPartner"><option value="">— ohne —</option>${pOpts}</select></div>
+      <div id="rTotals">${totalsHTML()}</div>
+    </div>
+    <div class="receipt-foot"></div>
+    <button class="btn" id="saveMove" style="margin-top:14px">Buchung speichern</button>
+    <div class="eyebrow">Letzte Buchungen</div>
+    <div class="stack">${last.length ? last.map(moveRow).join('')
+      : emptyBox('Noch nichts gebucht', 'Trag oben deine erste Bewegung ein.')}</div>`;
+}
+function totalsHTML() {
+  const prod = byId(S.products, entryDraft.productId);
+  const qty = n2(entryDraft.qty), price = n2(entryDraft.unitPrice);
+  const cost = prod ? +prod.buy_price || 0 : 0;
+  const profit = (price - cost) * qty, isOut = OUT.includes(entryType);
+  const cur = prod ? stockOf(prod.id) : 0;
+  return `
+    <div class="rtotal"><span class="l">Summe</span><span class="v">${money(qty * price)}</span></div>
+    <div class="rprofit"><span>${isOut ? 'Gewinn dieser Buchung' : entryType === 'purchase' ? 'Erhöht den Lagerwert' : 'Storniert eine Ausgabe'}</span>
+      <span class="${profit >= 0 ? 'g' : 'r'}">${isOut ? money(profit) : '—'}</span></div>
+    <div class="rprofit" style="border-top:1px dashed var(--paper-line);padding-top:8px">
+      <span>Bestand ${prod ? esc(prod.name) : '—'}</span>
+      <span>${prod ? num.format(cur) + ' → ' + num.format(cur + (IN.includes(entryType) ? qty : -qty)) : '—'}</span></div>`;
+}
+function updateTotals() {
+  const t = document.getElementById('rTotals'); if (t) t.innerHTML = totalsHTML();
+  const d = document.querySelector('.receipt-head .d');
+  if (d) d.textContent = 'Beleg-Entwurf · ' + deDate(entryDraft.date);
+}
+function moveRow(m) {
+  const p = byId(S.products, m.product_id), pa = byId(S.partners, m.partner_id);
+  return `<button class="row" data-mid="${m.id}">
+    <div class="row-main"><div class="row-title">${esc(p ? p.name : 'Gelöschtes Produkt')}</div>
+      <div class="row-sub">${TYPE_LABEL[m.type]} · ${deDate(m.date)}${pa ? ' · ' + esc(pa.name) : ''}</div></div>
+    <div class="row-end"><div class="big">${money(m.unit_price * m.qty)}</div>
+      <div class="small">${IN.includes(m.type) ? '+' : '−'}${num.format(m.qty)} Stk</div></div></button>`;
+}
+function wireEntry() {
+  document.getElementById('segType').onclick = e => {
+    const b = e.target.closest('[data-t]'); if (!b) return;
+    entryType = b.dataset.t; entryDraft.partnerId = ''; syncPrice(); render();
+  };
+  const bind = (id, key) => {
+    const el = document.getElementById(id); if (!el) return;
+    const h = () => { entryDraft[key] = el.value; updateTotals(); };
+    el.oninput = h; el.onchange = h;
+  };
+  ['fQty:qty', 'fPrice:unitPrice', 'fDate:date', 'fPartner:partnerId'].forEach(s => {
+    const [a, b] = s.split(':'); bind(a, b);
+  });
+  const fp = document.getElementById('fProd');
+  if (fp) fp.onchange = () => {
+    entryDraft.productId = fp.value; syncPrice();
+    const pr = document.getElementById('fPrice'); if (pr) pr.value = entryDraft.unitPrice;
+    updateTotals();
+  };
+  document.getElementById('saveMove').onclick = saveMovement;
+  document.querySelectorAll('[data-mid]').forEach(el =>
+    el.onclick = () => movementSheet(byId(S.movements, el.dataset.mid)));
+}
+function syncPrice() {
+  const p = byId(S.products, entryDraft.productId); if (!p) return;
+  entryDraft.unitPrice = String(entryType === 'purchase' ? (p.buy_price || '') : (p.sell_price || ''));
+}
+async function saveMovement() {
+  if (!requireOnline()) return;
+  const p = byId(S.products, entryDraft.productId);
+  if (!p) return toast('Produkt wählen');
+  const qty = n2(entryDraft.qty);
+  if (qty <= 0) return toast('Menge eintragen');
+  try {
+    const rows = await SB.insert('movements', {
+      type: entryType, product_id: p.id, qty,
+      unit_price: n2(entryDraft.unitPrice), cost_price: +p.buy_price || 0,
+      date: entryDraft.date || today(), partner_id: entryDraft.partnerId || null
+    });
+    S.movements.unshift(rows[0]);
+    entryDraft.qty = '';
+    toast(TYPE_LABEL[entryType] + ' gespeichert');
+    render();
+  } catch (e) { fail(e); }
+}
+
+/* ----- Finanzen ----- */
+function renderFinance() {
+  const inP = S.movements.filter(m => inPeriod(m, period));
+  const rev = inP.reduce((s, m) => s + revenueOf(m), 0);
+  const cogs = inP.reduce((s, m) => s + cogsOf(m), 0);
+  const profit = rev - cogs;
+  const buys = inP.filter(m => m.type === 'purchase').reduce((s, m) => s + m.unit_price * m.qty, 0);
+  const margin = rev ? profit / rev * 100 : 0;
+  const agg = {};
+  inP.forEach(m => {
+    if (!OUT.includes(m.type) && m.type !== 'return') return;
+    const a = agg[m.product_id] || (agg[m.product_id] = { units: 0, rev: 0, profit: 0 });
+    a.units += unitsOf(m); a.rev += revenueOf(m); a.profit += profitOf(m);
+  });
+  let best = Object.entries(agg).map(([id, a]) => Object.assign({ p: byId(S.products, id) }, a))
+    .filter(x => x.p && x.units > 0).sort((a, b) => b.units - a.units);
+  const sold = new Set(best.map(x => x.p.id));
+  let slow = S.products.filter(p => !sold.has(p.id));
+  if (q()) { best = best.filter(x => norm(x.p.name).includes(q())); slow = slow.filter(p => norm(p.name).includes(q())); }
+  return `
+    <div class="chips" id="periodChips">${[['today', 'Heute'], ['week', 'Woche'], ['month', 'Monat'], ['year', 'Jahr'], ['all', 'Gesamt']]
+      .map(([k, l]) => `<button class="chip ${k === period ? 'is-active' : ''}" data-p="${k}">${l}</button>`).join('')}</div>
+    <div class="kpis" style="margin-top:12px">
+      <div class="kpi"><div class="lab">Umsatz</div><div class="val">${money(rev)}</div></div>
+      <div class="kpi"><div class="lab">Gewinn</div><div class="val ${profit >= 0 ? 'pos' : 'neg'}">${money(profit)}</div></div>
+      <div class="kpi"><div class="lab">Marge</div><div class="val">${num.format(margin.toFixed(1))} %</div></div>
+      <div class="kpi"><div class="lab">Wareneinsatz</div><div class="val">${money(cogs)}</div></div>
+      <div class="kpi"><div class="lab">Einkäufe</div><div class="val">${money(buys)}</div></div>
+      <div class="kpi"><div class="lab">Lagerwert</div><div class="val">${money(stockValue())}</div></div>
+      <div class="kpi wide"><div class="lab">Offene Forderungen</div>
+        <div class="val ${openReceivables() > 0 ? 'neg' : ''}">${money(openReceivables())}</div></div>
+    </div>
+    <div class="eyebrow">Verlauf ${new Date().getFullYear()}</div>
+    <div class="card">${monthChart(new Date().getFullYear())}
+      <div class="legend"><span><i style="background:var(--surface2);border:1px solid var(--line)"></i>Umsatz</span>
+        <span><i style="background:var(--signal)"></i>Gewinn</span></div></div>
+    <div class="eyebrow">Meistverkauft im Zeitraum</div>
+    <div class="stack">${best.length ? best.slice(0, 12).map((x, i) => `
+      <div class="rank"><div class="rank-no">${i + 1}</div>
+        <div class="row-main"><div class="row-title">${esc(x.p.name)}</div>
+          <div class="row-sub">${num.format(x.units)} Stück · Umsatz ${money(x.rev)}</div></div>
+        <div class="row-end"><div class="big ${x.profit >= 0 ? 'pos' : 'neg'}">${money(x.profit)}</div>
+          <div class="small">Gewinn</div></div></div>`).join('')
+      : emptyBox('Keine Verkäufe im Zeitraum', 'Wähle oben einen anderen Zeitraum.')}</div>
+    <div class="eyebrow">Ladenhüter</div>
+    <div class="stack">${slow.length ? slow.slice(0, 12).map(p => `
+      <div class="row"><div class="row-main"><div class="row-title">${esc(p.name)}</div>
+        <div class="row-sub">Bestand ${num.format(stockOf(p.id))} · gebunden ${money(stockOf(p.id) * (+p.buy_price || 0))}</div>
+      </div></div>`).join('') : emptyBox('Alles bewegt sich', 'Jedes Produkt wurde im Zeitraum verkauft.')}</div>`;
+}
+function wireFinance() {
+  document.getElementById('periodChips').onclick = e => {
+    const b = e.target.closest('[data-p]'); if (!b) return; period = b.dataset.p; render();
+  };
+}
+function monthChart(year) {
+  const rev = Array(12).fill(0), pro = Array(12).fill(0);
+  S.movements.forEach(m => {
+    const d = String(m.date).slice(0, 10).split('-');
+    if (+d[0] !== year) return;
+    rev[+d[1] - 1] += revenueOf(m); pro[+d[1] - 1] += profitOf(m);
+  });
+  const max = Math.max(1, ...rev, ...pro), W = 340, H = 150, pad = 16, bw = (W - pad * 2) / 12;
+  let out = '';
+  for (let i = 0; i < 12; i++) {
+    const hr = Math.max(0, rev[i] / max) * (H - 34), hp = Math.max(0, pro[i] / max) * (H - 34), x = pad + i * bw;
+    out += `<rect class="bar-r" x="${x + 2}" y="${H - 20 - hr}" width="${bw - 8}" height="${hr}" rx="2"/>`;
+    out += `<rect class="bar-p" x="${x + 2}" y="${H - 20 - hp}" width="${bw - 8}" height="${hp}" rx="2"/>`;
+    out += `<text x="${x + (bw - 6) / 2}" y="${H - 7}" text-anchor="middle">${MON3[i]}</text>`;
+  }
+  return `<svg class="chart" viewBox="0 0 ${W} ${H}">${out}</svg>`;
+}
+
+/* ----- Partner: Anfragen-Posteingang + Konten ----- */
+let partnerTab = 'requests';
+function renderPartners() {
+  const seg = `<div class="seg" id="segPartner">
+    <button data-s="requests" class="${partnerTab === 'requests' ? 'is-active' : ''}">Anfragen${openCount() ? ' · ' + openCount() : ''}</button>
+    <button data-s="accounts" class="${partnerTab === 'accounts' ? 'is-active' : ''}">Konten</button></div>`;
+  return seg + (partnerTab === 'requests' ? renderInbox() : renderAccounts());
+}
+const openCount = () => S.requests.filter(r => r.status === 'offen').length;
+
+function renderInbox() {
+  let list = S.requests.slice();
+  if (q()) list = list.filter(r => {
+    const s = byId(S.partners, r.supplier_id), p = byId(S.products, r.product_id);
+    return norm(s && s.name).includes(q()) || norm(p && p.name).includes(q()) || norm(r.free_text).includes(q());
+  });
+  return `<div class="eyebrow">${list.length} Anfrage(n)</div>
+    <div class="stack">${list.length ? list.map(reqCard).join('')
+      : emptyBox('Keine Anfragen', 'Sobald ein Lieferant etwas anfragt, erscheint es hier.')}</div>`;
+}
+function reqCard(r, forSupplier) {
+  const s = byId(S.partners, r.supplier_id), p = byId(S.products, r.product_id)
+    || byId(S.catalog, r.product_id);
+  return `<div class="req" data-rid="${r.id}">
+    <div class="req-top">
+      <div><div class="req-title">${esc(p ? p.name : 'Freie Anfrage')}</div>
+        <div class="req-meta">${forSupplier ? deDate(r.created_at) : esc((s && s.name) || 'Unbekannt') + ' · ' + deDate(r.created_at)}</div></div>
+      <span class="st st-${r.status}">${r.status}</span>
+    </div>
+    <div class="req-grid">
+      <div>Menge<b>${num.format(r.qty)}</b></div>
+      <div>Zahlt<b>${money(r.buy_offer)}</b></div>
+      <div>Verkauft für<b>${money(r.resale_price)}</b></div>
+    </div>
+    ${r.needed_by ? `<div class="req-meta" style="margin-top:8px">Benötigt bis ${deDate(r.needed_by)}</div>` : ''}
+    ${r.free_text ? `<div class="req-text">${esc(r.free_text)}</div>` : ''}
+    ${r.admin_note ? `<div class="req-text" style="border-left:3px solid var(--signal)">Antwort: ${esc(r.admin_note)}</div>` : ''}
+  </div>`;
+}
+function renderAccounts() {
+  let list = S.partners.filter(p => p.role === 'supplier');
+  if (q()) list = list.filter(p => norm(p.name).includes(q()) || norm(p.email).includes(q()));
+  list.sort((a, b) => partnerBalance(b.id).net - partnerBalance(a.id).net);
+  const owed = openReceivables();
+  const iOwe = S.partners.reduce((s, p) => { const n = partnerBalance(p.id).net; return s + (n < 0 ? -n : 0); }, 0);
+  return `
+    <div class="kpis">
+      <div class="kpi"><div class="lab">Mir wird geschuldet</div><div class="val ${owed ? 'pos' : ''}">${money(owed)}</div></div>
+      <div class="kpi"><div class="lab">Ich schulde</div><div class="val ${iOwe ? 'neg' : ''}">${money(iOwe)}</div></div>
+    </div>
+    <div class="eyebrow">${list.length} Lieferantenkonto/-konten</div>
+    <div class="stack">${list.length ? list.map(partnerRow).join('')
+      : emptyBox('Noch keine Lieferanten', 'Gib deinen Einladungscode weiter, damit sie sich registrieren.')}</div>`;
+}
+function partnerRow(p) {
+  const b = partnerBalance(p.id);
+  const lab = b.net > 0 ? 'schuldet dir' : b.net < 0 ? 'du schuldest' : 'ausgeglichen';
+  return `<button class="row" data-paid="${p.id}">
+    <div class="row-main"><div class="row-title">${esc(p.name)}</div>
+      <div class="row-sub">${esc(p.email || '')}</div></div>
+    <div class="row-end"><div class="big ${b.net > 0 ? 'pos' : b.net < 0 ? 'neg' : 'dim'}">${money(Math.abs(b.net))}</div>
+      <div class="small">${lab}</div></div></button>`;
+}
+function wirePartners() {
+  document.getElementById('segPartner').onclick = e => {
+    const b = e.target.closest('[data-s]'); if (!b) return; partnerTab = b.dataset.s; render();
+  };
+  document.querySelectorAll('[data-rid]').forEach(el =>
+    el.onclick = () => requestSheet(byId(S.requests, el.dataset.rid)));
+  document.querySelectorAll('[data-paid]').forEach(el =>
+    el.onclick = () => partnerDetail(byId(S.partners, el.dataset.paid)));
+}
+
+/* ----- Statistik ----- */
+function renderStats() {
+  const years = [...new Set(S.movements.map(m => +String(m.date).slice(0, 4)))].sort((a, b) => b - a);
+  if (years.length && !years.includes(statsYear)) statsYear = years[0];
+  const ym = S.movements.filter(m => +String(m.date).slice(0, 4) === statsYear);
+  const pa = {};
+  ym.forEach(m => {
+    if (!OUT.includes(m.type) && m.type !== 'return') return;
+    const a = pa[m.product_id] || (pa[m.product_id] = { units: 0, rev: 0, profit: 0 });
+    a.units += unitsOf(m); a.rev += revenueOf(m); a.profit += profitOf(m);
+  });
+  let topP = Object.entries(pa).map(([id, a]) => Object.assign({ p: byId(S.products, id) }, a))
+    .filter(x => x.p && x.units > 0).sort((a, b) => b.units - a.units);
+  if (q()) topP = topP.filter(x => norm(x.p.name).includes(q()) || norm(x.p.brand).includes(q()));
+  topP = topP.slice(0, 10);
+  const ta = {};
+  ym.forEach(m => {
+    if (!m.partner_id || (!OUT.includes(m.type) && m.type !== 'return')) return;
+    const a = ta[m.partner_id] || (ta[m.partner_id] = { units: 0, rev: 0, profit: 0 });
+    a.units += unitsOf(m); a.rev += revenueOf(m); a.profit += profitOf(m);
+  });
+  let topT = Object.entries(ta).map(([id, a]) => Object.assign({ pa: byId(S.partners, id) }, a))
+    .filter(x => x.pa && x.units > 0).sort((a, b) => b.units - a.units);
+  if (q()) topT = topT.filter(x => norm(x.pa.name).includes(q()));
+  topT = topT.slice(0, 3);
+  const ma = Array.from({ length: 12 }, () => ({ units: 0, rev: 0, profit: 0 }));
+  ym.forEach(m => {
+    const i = +String(m.date).slice(5, 7) - 1;
+    ma[i].units += unitsOf(m); ma[i].rev += revenueOf(m); ma[i].profit += profitOf(m);
+  });
+  const topM = ma.map((a, i) => Object.assign({ i }, a)).filter(x => x.units > 0)
+    .sort((a, b) => b.profit - a.profit).slice(0, 3);
+  return `
+    <div class="chips" id="yearChips">${(years.length ? years : [statsYear]).map(y =>
+      `<button class="chip ${y === statsYear ? 'is-active' : ''}" data-y="${y}">${y}</button>`).join('')}</div>
+    <div class="eyebrow">Top 10 Produkte · ${statsYear}</div>
+    <div class="stack">${topP.length ? topP.map((x, i) => `
+      <div class="rank"><div class="rank-no">${String(i + 1).padStart(2, '0')}</div>
+        ${x.p.photo ? `<img class="thumb" src="${x.p.photo}" alt="">` : '<div class="thumb">▤</div>'}
+        <div class="row-main"><div class="row-title">${esc(x.p.name)}</div>
+          <div class="row-sub">${esc(x.p.brand || 'ohne Marke')} · ${num.format(x.units)} Stück · ${money(x.rev)}</div></div>
+        <div class="row-end"><div class="big ${x.profit >= 0 ? 'pos' : 'neg'}">${money(x.profit)}</div>
+          <div class="small">Gewinn</div></div></div>`).join('')
+      : emptyBox('Keine Daten für ' + statsYear, 'Sobald du Verkäufe buchst, erscheint hier die Rangliste.')}</div>
+    <div class="eyebrow">Top 3 Lieferanten · ${statsYear}</div>
+    <div class="stack">${topT.length ? topT.map((x, i) => `
+      <div class="rank"><div class="rank-no">${i + 1}</div>
+        <div class="row-main"><div class="row-title">${esc(x.pa.name)}</div>
+          <div class="row-sub">${num.format(x.units)} Stück · Umsatz ${money(x.rev)}</div></div>
+        <div class="row-end"><div class="big ${x.profit >= 0 ? 'pos' : 'neg'}">${money(x.profit)}</div>
+          <div class="small">Gewinn</div></div></div>`).join('')
+      : emptyBox('Keine Lieferantendaten', 'Ordne Buchungen einem Partner zu, dann zählt es hier mit.')}</div>
+    <div class="eyebrow">Top 3 Monate · ${statsYear}</div>
+    <div class="stack">${topM.length ? topM.map((x, i) => `
+      <div class="rank"><div class="rank-no">${i + 1}</div>
+        <div class="row-main"><div class="row-title">${MONTHS[x.i]}</div>
+          <div class="row-sub">${num.format(x.units)} Stück · Umsatz ${money(x.rev)}</div></div>
+        <div class="row-end"><div class="big ${x.profit >= 0 ? 'pos' : 'neg'}">${money(x.profit)}</div>
+          <div class="small">Gewinn</div></div></div>`).join('')
+      : emptyBox('Noch kein Monat mit Umsatz', 'Buche Verkäufe, um die besten Monate zu sehen.')}</div>`;
+}
+function wireStats() {
+  document.getElementById('yearChips').onclick = e => {
+    const b = e.target.closest('[data-y]'); if (!b) return; statsYear = +b.dataset.y; render();
+  };
+}
+
+/* =========================================================
+   LIEFERANTEN-ANSICHTEN
+   ========================================================= */
+function renderCatalog() {
+  let list = S.catalog.slice();
+  if (q()) list = list.filter(p => norm(p.name).includes(q()) || norm(p.brand).includes(q()) || norm(p.category).includes(q()));
+  return `
+    <p class="dim" style="font-size:13.5px;margin:2px 0 0">Tippe ein Produkt an, um es anzufragen.</p>
+    <div class="eyebrow">${list.length} Produkt(e)</div>
+    <div class="stack">${list.length ? list.map(p => `
+      <button class="row" data-cid="${p.id}">
+        ${p.photo ? `<img class="thumb" src="${p.photo}" alt="">` : '<div class="thumb">▤</div>'}
+        <div class="row-main"><div class="row-title">${esc(p.name)}</div>
+          <div class="row-sub">${[p.brand, p.category].filter(Boolean).map(esc).join(' · ') || 'Ohne Marke'}</div></div>
+        <div class="row-end"><div class="big ${+p.stock <= 0 ? 'low' : ''}">${num.format(p.stock)}</div>
+          <div class="small">verfügbar</div></div></button>`).join('')
+      : emptyBox('Katalog ist leer', 'Aktuell sind keine Produkte hinterlegt.')}</div>`;
+}
+function wireCatalog() {
+  document.querySelectorAll('[data-cid]').forEach(el =>
+    el.onclick = () => newRequestSheet(byId(S.catalog, el.dataset.cid)));
+}
+function renderMyRequests() {
+  let list = S.requests.slice();
+  if (q()) list = list.filter(r => {
+    const p = byId(S.catalog, r.product_id);
+    return norm(p && p.name).includes(q()) || norm(r.free_text).includes(q()) || norm(r.status).includes(q());
+  });
+  return `
+    <button class="btn" id="freeReq">Freie Anfrage stellen</button>
+    <p class="dim" style="font-size:13px;margin:10px 0 0">Beschreib, was du brauchst, wenn es nicht im Katalog steht.</p>
+    <div class="eyebrow">${list.length} Anfrage(n)</div>
+    <div class="stack">${list.length ? list.map(r => reqCard(r, true)).join('')
+      : emptyBox('Noch keine Anfragen', 'Wähle im Katalog ein Produkt oder stell eine freie Anfrage.')}</div>`;
+}
+function wireMyRequests() {
+  document.getElementById('freeReq').onclick = () => newRequestSheet(null);
+  document.querySelectorAll('[data-rid]').forEach(el =>
+    el.onclick = () => myRequestSheet(byId(S.requests, el.dataset.rid)));
+}
+
+/* =========================================================
+   DIALOGE
+   ========================================================= */
+const sheet = document.getElementById('sheet');
+function openSheet(title, html, after) {
+  document.getElementById('sheetTitle').textContent = title;
+  document.getElementById('sheetBody').innerHTML = html;
+  sheet.hidden = false;
+  document.body.style.overflow = 'hidden';
+  if (after) after();
+}
+function closeSheet() { sheet.hidden = true; document.body.style.overflow = ''; }
+sheet.addEventListener('click', e => { if (e.target.hasAttribute('data-close')) closeSheet(); });
+
+/* ----- Produkt ----- */
+function productSheet(p) {
+  const isNew = !p;
+  p = p || { id: '', name: '', brand: '', category: '', photo: '', buy_price: '', sell_price: '', min_stock: 0, note: '' };
+  const st = isNew ? 0 : stockOf(p.id);
+  const hist = isNew ? [] : S.movements.filter(m => m.product_id === p.id).slice(0, 15);
+  const soldU = isNew ? 0 : S.movements.filter(m => m.product_id === p.id).reduce((s, m) => s + unitsOf(m), 0);
+  const earned = isNew ? 0 : S.movements.filter(m => m.product_id === p.id).reduce((s, m) => s + profitOf(m), 0);
+  openSheet(isNew ? 'Neues Produkt' : p.name, `
+    <div class="photo-pick">
+      <img id="pvImg" src="${p.photo || ''}" alt="" ${p.photo ? '' : 'hidden'}>
+      <div class="ph" id="pvPh" ${p.photo ? 'hidden' : ''}>▤</div>
+      <div class="acts"><button id="pickPhoto">Foto aufnehmen oder wählen</button>
+        <button id="dropPhoto" ${p.photo ? '' : 'hidden'}>Foto entfernen</button></div>
+      <input type="file" id="fileIn" accept="image/*" hidden></div>
+    <div class="field"><label>Name</label><input id="pName" value="${esc(p.name)}" placeholder="z. B. Nike Air Max 90"></div>
+    <div class="field-2">
+      <div class="field"><label>Marke</label><input id="pBrand" value="${esc(p.brand)}"></div>
+      <div class="field"><label>Kategorie</label><input id="pCat" value="${esc(p.category)}"></div></div>
+    <div class="field-2">
+      <div class="field"><label>Einkaufspreis</label><input id="pBuy" type="number" inputmode="decimal" step="0.01" value="${p.buy_price}"></div>
+      <div class="field"><label>Verkaufspreis</label><input id="pSell" type="number" inputmode="decimal" step="0.01" value="${p.sell_price}"></div></div>
+    <div class="field-2">
+      <div class="field"><label>Mindestbestand</label><input id="pMin" type="number" inputmode="numeric" step="1" value="${p.min_stock || 0}"></div>
+      ${isNew ? '<div class="field"><label>Anfangsbestand</label><input id="pInit" type="number" inputmode="numeric" step="1" value="0"></div>'
+      : `<div class="field"><label>Aktueller Bestand</label><input value="${num.format(st)}" disabled></div>`}</div>
+    <div class="field"><label>Notiz</label><textarea id="pNote" rows="2">${esc(p.note)}</textarea></div>
+    ${isNew ? '' : `
+      <div class="kpis" style="margin-top:6px">
+        <div class="kpi"><div class="lab">Verkauft</div><div class="val">${num.format(soldU)}</div></div>
+        <div class="kpi"><div class="lab">Gewinn gesamt</div><div class="val ${earned >= 0 ? 'pos' : 'neg'}">${money(earned)}</div></div></div>
+      <div class="eyebrow">Bewegungen</div>
+      <div class="card">${hist.length ? hist.map(m => `
+        <div class="ledger"><div class="lm"><div>${TYPE_LABEL[m.type]} · ${num.format(m.qty)} Stk</div>
+          <div class="ld">${deDate(m.date)}</div></div>
+          <div class="lv">${money(m.unit_price * m.qty)}</div></div>`).join('')
+      : '<div class="dim" style="font-size:14px">Noch keine Bewegungen.</div>'}</div>`}
+    <div class="btn-row"><button class="btn" id="pSave">${isNew ? 'Anlegen' : 'Speichern'}</button></div>
+    ${isNew ? '' : '<div class="btn-row"><button class="btn btn-danger" id="pDel">Produkt löschen</button></div>'}
+  `, () => {
+    let photo = p.photo;
+    const img = document.getElementById('pvImg'), ph = document.getElementById('pvPh'), file = document.getElementById('fileIn');
+    document.getElementById('pickPhoto').onclick = () => file.click();
+    document.getElementById('dropPhoto').onclick = () => {
+      photo = ''; img.hidden = true; ph.hidden = false; document.getElementById('dropPhoto').hidden = true;
+    };
+    file.onchange = async () => {
+      if (!file.files[0]) return;
+      photo = await shrink(file.files[0]);
+      img.src = photo; img.hidden = false; ph.hidden = true; document.getElementById('dropPhoto').hidden = false;
+    };
+    document.getElementById('pSave').onclick = async () => {
+      if (!requireOnline()) return;
+      const name = document.getElementById('pName').value.trim();
+      if (!name) return toast('Name fehlt');
+      const rec = {
+        name, brand: document.getElementById('pBrand').value.trim(),
+        category: document.getElementById('pCat').value.trim(), photo,
+        buy_price: n2(document.getElementById('pBuy').value),
+        sell_price: n2(document.getElementById('pSell').value),
+        min_stock: n2(document.getElementById('pMin').value),
+        note: document.getElementById('pNote').value.trim()
+      };
+      try {
+        if (isNew) {
+          const rows = await SB.insert('products', rec);
+          S.products.push(rows[0]);
+          const init = n2(document.getElementById('pInit').value);
+          if (init > 0) {
+            const mv = await SB.insert('movements', {
+              type: 'purchase', product_id: rows[0].id, qty: init,
+              unit_price: rec.buy_price, cost_price: rec.buy_price, date: today(), note: 'Anfangsbestand'
+            });
+            S.movements.unshift(mv[0]);
+          }
+        } else {
+          const rows = await SB.update('products', p.id, rec);
+          const i = S.products.findIndex(x => x.id === p.id);
+          if (i >= 0) S.products[i] = rows[0];
+        }
+        closeSheet(); toast(isNew ? 'Produkt angelegt' : 'Gespeichert'); render();
+      } catch (e) { fail(e); }
+    };
+    const del = document.getElementById('pDel');
+    if (del) del.onclick = async () => {
+      if (!requireOnline()) return;
+      if (!confirm('Produkt und alle zugehörigen Buchungen löschen?')) return;
+      try {
+        await SB.remove('products', p.id);
+        S.products = S.products.filter(x => x.id !== p.id);
+        S.movements = S.movements.filter(m => m.product_id !== p.id);
+        closeSheet(); toast('Gelöscht'); render();
+      } catch (e) { fail(e); }
+    };
+  });
+}
+function shrink(file) {
+  return new Promise(res => {
+    const fr = new FileReader();
+    fr.onload = () => {
+      const im = new Image();
+      im.onload = () => {
+        const max = 700, sc = Math.min(1, max / Math.max(im.width, im.height));
+        const c = document.createElement('canvas');
+        c.width = Math.round(im.width * sc); c.height = Math.round(im.height * sc);
+        c.getContext('2d').drawImage(im, 0, 0, c.width, c.height);
+        res(c.toDataURL('image/jpeg', 0.65));
+      };
+      im.onerror = () => res('');
+      im.src = fr.result;
+    };
+    fr.readAsDataURL(file);
+  });
+}
+
+/* ----- Buchung bearbeiten ----- */
+function movementSheet(m) {
+  if (!m) return;
+  const p = byId(S.products, m.product_id);
+  const pOpts = S.partners.filter(x => x.role === 'supplier').map(x =>
+    `<option value="${x.id}" ${x.id === m.partner_id ? 'selected' : ''}>${esc(x.name)}</option>`).join('');
+  openSheet(TYPE_LABEL[m.type] + ' bearbeiten', `
+    <div class="field"><label>Produkt</label><input value="${esc(p ? p.name : '—')}" disabled></div>
+    <div class="field-2">
+      <div class="field"><label>Menge</label><input id="mQty" type="number" inputmode="decimal" step="1" value="${m.qty}"></div>
+      <div class="field"><label>Stückpreis</label><input id="mPrice" type="number" inputmode="decimal" step="0.01" value="${m.unit_price}"></div></div>
+    <div class="field"><label>Datum</label><input id="mDate" type="date" value="${String(m.date).slice(0, 10)}"></div>
+    <div class="field"><label>Partner</label><select id="mPartner"><option value="">— ohne —</option>${pOpts}</select></div>
+    <div class="field"><label>Notiz</label><input id="mNote" value="${esc(m.note)}"></div>
+    <div class="btn-row"><button class="btn" id="mSave">Speichern</button></div>
+    <div class="btn-row"><button class="btn btn-danger" id="mDel">Buchung löschen</button></div>
+  `, () => {
+    document.getElementById('mSave').onclick = async () => {
+      if (!requireOnline()) return;
+      try {
+        const rows = await SB.update('movements', m.id, {
+          qty: n2(document.getElementById('mQty').value),
+          unit_price: n2(document.getElementById('mPrice').value),
+          date: document.getElementById('mDate').value || m.date,
+          partner_id: document.getElementById('mPartner').value || null,
+          note: document.getElementById('mNote').value.trim()
+        });
+        const i = S.movements.findIndex(x => x.id === m.id);
+        if (i >= 0) S.movements[i] = rows[0];
+        closeSheet(); toast('Gespeichert'); render();
+      } catch (e) { fail(e); }
+    };
+    document.getElementById('mDel').onclick = async () => {
+      if (!requireOnline()) return;
+      if (!confirm('Buchung löschen?')) return;
+      try {
+        await SB.remove('movements', m.id);
+        S.movements = S.movements.filter(x => x.id !== m.id);
+        closeSheet(); toast('Gelöscht'); render();
+      } catch (e) { fail(e); }
+    };
+  });
+}
+
+/* ----- Partnerkonto ----- */
+function partnerDetail(p) {
+  if (!p) return;
+  const b = partnerBalance(p.id);
+  const items = [
+    ...S.movements.filter(m => m.partner_id === p.id).map(m => ({
+      date: m.date, title: TYPE_LABEL[m.type] + ' · ' + ((byId(S.products, m.product_id) || {}).name || '—'),
+      sub: num.format(m.qty) + ' Stück à ' + money(m.unit_price),
+      val: (m.type === 'consign' ? '+' : m.type === 'return' ? '−' : '') + money(m.unit_price * m.qty),
+      cls: m.type === 'consign' ? 'pos' : m.type === 'return' ? 'neg' : ''
+    })),
+    ...S.payments.filter(x => x.partner_id === p.id).map(x => ({
+      date: x.date, title: x.direction === 'in' ? 'Zahlung erhalten' : 'Zahlung geleistet',
+      sub: x.note || '', val: '−' + money(x.amount), cls: 'dim', id: x.id
+    }))
+  ].sort((a, c) => String(c.date).localeCompare(String(a.date)));
+  openSheet(p.name, `
+    <div class="kpis">
+      <div class="kpi wide"><div class="lab">${b.net >= 0 ? 'Schuldet dir noch' : 'Du schuldest'}</div>
+        <div class="val ${b.net > 0 ? 'pos' : b.net < 0 ? 'neg' : ''}">${money(Math.abs(b.net))}</div></div></div>
+    <p class="dim" style="font-size:13px">${esc(p.email || '')}</p>
+    <div class="btn-row"><button class="btn" id="addPay">Zahlung erfassen</button></div>
+    <div class="eyebrow">Kontobuch</div>
+    <div class="card">${items.length ? items.map(i => `
+      <div class="ledger" ${i.id ? `data-pay="${i.id}"` : ''}>
+        <div class="lm"><div>${esc(i.title)}</div>
+          <div class="ld">${deDate(i.date)}${i.sub ? ' · ' + esc(i.sub) : ''}</div></div>
+        <div class="lv ${i.cls}">${i.val}</div></div>`).join('')
+      : '<div class="dim" style="font-size:14px">Noch keine Vorgänge.</div>'}</div>
+  `, () => {
+    document.getElementById('addPay').onclick = () => paymentSheet(p);
+    document.querySelectorAll('[data-pay]').forEach(el => el.onclick = async () => {
+      if (!requireOnline()) return;
+      if (!confirm('Diese Zahlung löschen?')) return;
+      try {
+        await SB.remove('payments', el.dataset.pay);
+        S.payments = S.payments.filter(x => x.id !== el.dataset.pay);
+        partnerDetail(p); render();
+      } catch (e) { fail(e); }
+    });
+  });
+}
+function paymentSheet(p) {
+  const b = partnerBalance(p.id);
+  openSheet('Zahlung · ' + p.name, `
+    <div class="field"><label>Richtung</label><select id="payDir">
+      <option value="in">Ich habe Geld erhalten</option>
+      <option value="out">Ich habe bezahlt</option></select></div>
+    <div class="field"><label>Betrag</label><input id="payAmt" type="number" inputmode="decimal" step="0.01"
+      value="${b.net > 0 ? b.net.toFixed(2) : ''}"></div>
+    <div class="field"><label>Datum</label><input id="payDate" type="date" value="${today()}"></div>
+    <div class="field"><label>Notiz</label><input id="payNote" placeholder="Bar, Überweisung, PayPal"></div>
+    <div class="btn-row"><button class="btn" id="paySave">Zahlung speichern</button></div>
+  `, () => {
+    document.getElementById('paySave').onclick = async () => {
+      if (!requireOnline()) return;
+      const amt = n2(document.getElementById('payAmt').value);
+      if (amt <= 0) return toast('Betrag eintragen');
+      try {
+        const rows = await SB.insert('payments', {
+          partner_id: p.id, amount: amt,
+          direction: document.getElementById('payDir').value,
+          date: document.getElementById('payDate').value || today(),
+          note: document.getElementById('payNote').value.trim()
+        });
+        S.payments.push(rows[0]);
+        toast('Zahlung gespeichert'); partnerDetail(p); render();
+      } catch (e) { fail(e); }
+    };
+  });
+}
+
+/* ----- Anfrage: Admin-Antwort ----- */
+function requestSheet(r) {
+  if (!r) return;
+  const s = byId(S.partners, r.supplier_id), p = byId(S.products, r.product_id);
+  openSheet('Anfrage', `
+    <div class="req" style="border:0;padding:0">
+      <div class="req-top"><div>
+        <div class="req-title">${esc(p ? p.name : 'Freie Anfrage')}</div>
+        <div class="req-meta">${esc((s && s.name) || 'Unbekannt')} · ${deDate(r.created_at)}</div></div>
+        <span class="st st-${r.status}">${r.status}</span></div>
+      <div class="req-grid">
+        <div>Menge<b>${num.format(r.qty)}</b></div>
+        <div>Zahlt<b>${money(r.buy_offer)}</b></div>
+        <div>Verkauft für<b>${money(r.resale_price)}</b></div></div>
+      ${r.needed_by ? `<div class="req-meta" style="margin-top:8px">Benötigt bis ${deDate(r.needed_by)}</div>` : ''}
+      ${r.free_text ? `<div class="req-text">${esc(r.free_text)}</div>` : ''}
+    </div>
+    ${p ? `<p class="dim" style="font-size:13px;margin-top:12px">Aktueller Bestand: ${num.format(stockOf(p.id))} Stück · dein EK ${money(p.buy_price)}
+      ${r.buy_offer ? ' · Marge bei diesem Angebot ' + money((r.buy_offer - (+p.buy_price || 0)) * (+r.qty || 0)) : ''}</p>` : ''}
+    <div class="field" style="margin-top:14px"><label>Antwort an den Lieferanten</label>
+      <textarea id="rNote" rows="3" placeholder="Optional">${esc(r.admin_note)}</textarea></div>
+    <div class="field"><label>Status</label><select id="rStatus">
+      ${['offen', 'angenommen', 'abgelehnt', 'erledigt'].map(x =>
+        `<option value="${x}" ${x === r.status ? 'selected' : ''}>${x}</option>`).join('')}</select></div>
+    <div class="btn-row"><button class="btn" id="rSave">Speichern</button></div>
+    ${p ? '<div class="btn-row"><button class="btn btn-ghost" id="rBook">Als Ausgabe buchen</button></div>' : ''}
+    <div class="btn-row"><button class="btn btn-danger" id="rDel">Anfrage löschen</button></div>
+  `, () => {
+    document.getElementById('rSave').onclick = async () => {
+      if (!requireOnline()) return;
+      try {
+        const rows = await SB.update('requests', r.id, {
+          admin_note: document.getElementById('rNote').value.trim(),
+          status: document.getElementById('rStatus').value
+        });
+        const i = S.requests.findIndex(x => x.id === r.id);
+        if (i >= 0) S.requests[i] = rows[0];
+        closeSheet(); toast('Gespeichert'); render();
+      } catch (e) { fail(e); }
+    };
+    const bk = document.getElementById('rBook');
+    if (bk) bk.onclick = () => {
+      entryType = 'consign';
+      entryDraft.productId = r.product_id;
+      entryDraft.qty = String(r.qty || '');
+      entryDraft.unitPrice = String(r.buy_offer || '');
+      entryDraft.partnerId = r.supplier_id;
+      entryDraft.date = today();
+      closeSheet(); tab = 'entry'; render();
+      toast('Beleg vorbereitet — prüfen und speichern');
+    };
+    document.getElementById('rDel').onclick = async () => {
+      if (!requireOnline()) return;
+      if (!confirm('Anfrage löschen?')) return;
+      try {
+        await SB.remove('requests', r.id);
+        S.requests = S.requests.filter(x => x.id !== r.id);
+        closeSheet(); toast('Gelöscht'); render();
+      } catch (e) { fail(e); }
+    };
+  });
+}
+
+/* ----- Anfrage: Lieferant stellt sie ----- */
+function newRequestSheet(prod) {
+  const opts = S.catalog.map(p =>
+    `<option value="${p.id}" ${prod && p.id === prod.id ? 'selected' : ''}>${esc(p.name)}</option>`).join('');
+  openSheet(prod ? 'Anfrage · ' + prod.name : 'Freie Anfrage', `
+    <div class="field"><label>Produkt</label><select id="nqProd">
+      <option value="">— nicht im Katalog —</option>${opts}</select></div>
+    <div class="field"><label>Was brauchst du?</label>
+      <textarea id="nqText" rows="3" placeholder="Beschreib das Produkt, Größe, Farbe, Zustand…">${prod ? '' : ''}</textarea></div>
+    <div class="field-2">
+      <div class="field"><label>Menge</label><input id="nqQty" type="number" inputmode="numeric" step="1" placeholder="0"></div>
+      <div class="field"><label>Bis wann</label><input id="nqDate" type="date"></div></div>
+    <div class="field-2">
+      <div class="field"><label>Ich zahle je Stück</label><input id="nqBuy" type="number" inputmode="decimal" step="0.01" placeholder="0,00"
+        value="${prod ? prod.sell_price || '' : ''}"></div>
+      <div class="field"><label>Verkaufe weiter für</label><input id="nqSell" type="number" inputmode="decimal" step="0.01" placeholder="0,00"></div></div>
+    <div class="btn-row"><button class="btn" id="nqSave">Anfrage senden</button></div>
+  `, () => {
+    document.getElementById('nqSave').onclick = async () => {
+      if (!requireOnline()) return;
+      const pid = document.getElementById('nqProd').value;
+      const text = document.getElementById('nqText').value.trim();
+      const qty = n2(document.getElementById('nqQty').value);
+      if (!pid && !text) return toast('Produkt wählen oder beschreiben');
+      if (qty <= 0) return toast('Menge eintragen');
+      try {
+        const rows = await SB.insert('requests', {
+          supplier_id: Auth.me.id, product_id: pid || null, free_text: text, qty,
+          buy_offer: n2(document.getElementById('nqBuy').value),
+          resale_price: n2(document.getElementById('nqSell').value),
+          needed_by: document.getElementById('nqDate').value || null
+        });
+        S.requests.unshift(rows[0]);
+        closeSheet(); toast('Anfrage gesendet'); tab = 'myreq'; render();
+      } catch (e) { fail(e); }
+    };
+  });
+}
+function myRequestSheet(r) {
+  if (!r) return;
+  const p = byId(S.catalog, r.product_id);
+  const editable = r.status === 'offen';
+  openSheet('Deine Anfrage', `
+    <div class="req" style="border:0;padding:0">
+      <div class="req-top"><div><div class="req-title">${esc(p ? p.name : 'Freie Anfrage')}</div>
+        <div class="req-meta">${deDate(r.created_at)}</div></div>
+        <span class="st st-${r.status}">${r.status}</span></div>
+      <div class="req-grid">
+        <div>Menge<b>${num.format(r.qty)}</b></div>
+        <div>Du zahlst<b>${money(r.buy_offer)}</b></div>
+        <div>Verkaufst für<b>${money(r.resale_price)}</b></div></div>
+      ${r.needed_by ? `<div class="req-meta" style="margin-top:8px">Benötigt bis ${deDate(r.needed_by)}</div>` : ''}
+      ${r.free_text ? `<div class="req-text">${esc(r.free_text)}</div>` : ''}
+      ${r.admin_note ? `<div class="req-text" style="border-left:3px solid var(--signal)">Antwort: ${esc(r.admin_note)}</div>` : ''}
+    </div>
+    ${editable ? '<div class="btn-row"><button class="btn btn-danger" id="rqDel">Anfrage zurückziehen</button></div>'
+      : '<p class="dim" style="font-size:13px;margin-top:14px">Bereits bearbeitet — nicht mehr änderbar.</p>'}
+  `, () => {
+    const d = document.getElementById('rqDel');
+    if (d) d.onclick = async () => {
+      if (!requireOnline()) return;
+      if (!confirm('Anfrage zurückziehen?')) return;
+      try {
+        await SB.remove('requests', r.id);
+        S.requests = S.requests.filter(x => x.id !== r.id);
+        closeSheet(); toast('Zurückgezogen'); render();
+      } catch (e) { fail(e); }
+    };
+  });
+}
+
+/* ----- Menü ----- */
+function menuSheet() {
+  const isA = Auth.isAdmin();
+  openSheet('Konto', `
+    <div class="card"><div class="ledger"><div class="lm">Angemeldet als</div>
+        <div class="lv">${esc(Auth.me.name || '')}</div></div>
+      <div class="ledger"><div class="lm">E-Mail</div><div class="lv" style="font-size:12px">${esc(Auth.me.email || '')}</div></div>
+      <div class="ledger"><div class="lm">Rolle</div><div class="lv">${isA ? 'Admin' : 'Lieferant'}</div></div></div>
+    <div class="btn-row"><button class="btn btn-ghost" id="reload">Daten neu laden</button></div>
+    ${isA ? '<div class="btn-row"><button class="btn btn-ghost" id="expCsv">Buchungen als CSV</button></div>' : ''}
+    <div class="btn-row"><button class="btn btn-danger" id="logout">Abmelden</button></div>
+  `, () => {
+    document.getElementById('reload').onclick = async () => {
+      try { await loadData(); closeSheet(); toast('Aktualisiert'); render(); } catch (e) { fail(e); }
+    };
+    const ex = document.getElementById('expCsv');
+    if (ex) ex.onclick = () => {
+      const head = 'Datum;Typ;Produkt;Marke;Menge;Stueckpreis;Summe;Einkaufspreis;Gewinn;Partner\n';
+      const rows = S.movements.slice().sort((a, b) => String(a.date).localeCompare(String(b.date))).map(m => {
+        const p = byId(S.products, m.product_id) || {}, pa = byId(S.partners, m.partner_id) || {};
+        return [String(m.date).slice(0, 10), TYPE_LABEL[m.type], p.name || '', p.brand || '', m.qty,
+          f2(m.unit_price), f2(m.unit_price * m.qty), f2(m.cost_price), f2(profitOf(m)), pa.name || '']
+          .map(x => String(x).replace(/;/g, ',')).join(';');
+      }).join('\n');
+      const b = new Blob(['\uFEFF' + head + rows], { type: 'text/csv' });
+      const u = URL.createObjectURL(b), a = document.createElement('a');
+      a.href = u; a.download = 'buchungen-' + today() + '.csv';
+      document.body.appendChild(a); a.click();
+      setTimeout(() => { URL.revokeObjectURL(u); a.remove(); }, 500);
+    };
+    document.getElementById('logout').onclick = () => {
+      Auth.clear(); closeSheet(); location.reload();
+    };
+  });
+}
+
+/* =========================================================
+   START
+   ========================================================= */
+const elBoot = document.getElementById('boot');
+const elAuth = document.getElementById('auth');
+const elApp = document.getElementById('app');
+let authMode = 'login';
+
+function showAuth(msg) {
+  elBoot.hidden = true; elApp.hidden = true; elAuth.hidden = false;
+  if (msg) authError(msg);
+}
+function authError(m) {
+  const e = document.getElementById('auErr');
+  if (!m) { e.hidden = true; return; }
+  e.textContent = m; e.hidden = false;
+}
+document.getElementById('authSeg').onclick = e => {
+  const b = e.target.closest('[data-m]'); if (!b) return;
+  authMode = b.dataset.m;
+  document.querySelectorAll('#authSeg button').forEach(x => x.classList.toggle('is-active', x.dataset.m === authMode));
+  document.getElementById('signupOnly').hidden = authMode !== 'signup';
+  document.getElementById('auGo').textContent = authMode === 'signup' ? 'Konto erstellen' : 'Anmelden';
+  document.getElementById('auPass').autocomplete = authMode === 'signup' ? 'new-password' : 'current-password';
+  authError(null);
+};
+document.getElementById('auGo').onclick = async () => {
+  const btn = document.getElementById('auGo');
+  const email = document.getElementById('auEmail').value;
+  const pass = document.getElementById('auPass').value;
+  if (!email || !pass) return authError('E-Mail und Passwort eingeben');
+  btn.disabled = true; btn.textContent = 'Moment…'; authError(null);
+  try {
+    if (authMode === 'signup') {
+      const name = document.getElementById('auName').value;
+      const code = document.getElementById('auCode').value;
+      if (!name.trim()) throw new Error('Name eingeben');
+      if (!code.trim()) throw new Error('Einladungscode eingeben');
+      await Auth.signup(email, pass, name, code);
+    } else {
+      await Auth.login(email, pass);
+    }
+    await startApp();
+  } catch (e) {
+    let m = e.message || 'Fehler';
+    if (/Invalid login/i.test(m)) m = 'E-Mail oder Passwort stimmt nicht';
+    if (/Ungueltiger Einladungscode|invalid.*code/i.test(m)) m = 'Einladungscode stimmt nicht';
+    if (/already registered/i.test(m)) m = 'Diese E-Mail hat schon ein Konto';
+    if (/Database error saving new user|unexpected_failure/i.test(m)) m = 'Einladungscode stimmt nicht — oder das SQL-Skript wurde noch nicht ausgeführt';
+    if (/Email not confirmed/i.test(m)) m = 'E-Mail-Bestätigung ist noch aktiv. In Supabase unter Authentication → Providers → Email "Confirm email" ausschalten.';
+    if (/Password should be/i.test(m)) m = 'Passwort zu kurz (mindestens 6 Zeichen)';
+    if (/Failed to fetch|Load failed/i.test(m)) m = 'Keine Verbindung zum Server. Stimmen URL und Schlüssel in config.js?';
+    authError(m);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = authMode === 'signup' ? 'Konto erstellen' : 'Anmelden';
+  }
+};
+
+async function startApp() {
+  elAuth.hidden = true; elBoot.hidden = false;
+  buildTabs();
+  try { await loadData(); } catch (e) { elBoot.hidden = true; return showAuth('Daten konnten nicht geladen werden: ' + (e.message || '')); }
+  elBoot.hidden = true; elApp.hidden = false;
+  render();
+}
+
+document.getElementById('tabbar').addEventListener('click', e => {
+  const b = e.target.closest('[data-tab]'); if (!b) return;
+  tab = b.dataset.tab; window.scrollTo(0, 0); render();
+});
+document.getElementById('search').addEventListener('input', e => { query[tab] = e.target.value; render(); });
+document.getElementById('menuBtn').addEventListener('click', menuSheet);
+
+(async function boot() {
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => { });
+  if (!SB.configured()) {
+    elBoot.hidden = true;
+    document.body.innerHTML = '<div style="padding:60px 24px;max-width:460px;margin:0 auto;font-family:-apple-system,sans-serif;color:#EAEEF3">'
+      + '<h1 style="font-size:22px">Noch nicht eingerichtet</h1>'
+      + '<p style="color:#8B95A3;line-height:1.55">Trag in der Datei <b>config.js</b> deine Supabase-Projekt-URL und den anon-Schlüssel ein. '
+      + 'Du findest beides in Supabase unter Settings → API.</p></div>';
+    return;
+  }
+  await Cache.open();
+  if (Auth.load()) {
+    try {
+      await Auth.loadProfile();
+      return startApp();
+    } catch (e) {
+      if (await Auth.tryRefresh()) {
+        try { await Auth.loadProfile(); return startApp(); } catch (e2) { }
+      }
+      Auth.clear();
+    }
+  }
+  showAuth(null);
+})();
+
+</script>
+</body>
+</html>
